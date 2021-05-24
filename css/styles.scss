@@ -31,3 +31,46 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.nav__menu__btn{
+	width: 2.5em;
+	cursor: pointer;
+}
+
+.top__bg__container{
+	height: calc(100vh - 156px);
+	position: relative;
+	width: 100%;
+	top: 0;
+	right: 0;
+	display: grid;
+	grid-template-columns: 50% auto;
+	z-index: -1;
+}
+
+.top__bg__img{
+	height: 50%;
+	width: 75%;
+	position: absolute;
+	top: 25%;
+	right: 15%;
+	z-index: 1;
+}
+
+.top__bg__texture{
+	position: absolute;
+	width: 50%;
+	height: 100vh;
+	top: 0;
+	right: 0;
+}
+
+nav ul{
+	top: 0;
+	right: 0;
+	width: 66%;
+	z-index: 2;
+	transform: translateX(100%);
+	transition: transform .3s;
+}
+

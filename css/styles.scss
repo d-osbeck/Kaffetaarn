@@ -29,6 +29,10 @@ p {
 	font-family: 'EB Garamond', serif;
 }
 
+cite {
+	font-family: 'EB Garamond', serif;
+}
+
 img {
 	display: block;
 	max-width: 100%;
@@ -81,7 +85,7 @@ ul {
 	right: 0;
 }
 
-nav ul {
+.nav nav ul {
 	top: 0;
 	right: 0;
 	width: 66%;
@@ -115,15 +119,25 @@ nav ul {
 
 /* Menu */
 
-.menu__title__line{
+.title__line{
 	height: 2px;
 	background: #1a1e21;
 	width: 50%;
 	margin: auto;
 }
-.menu__line{
+.line{
 	height: 2px;
 	background: #1a1e21;
 	width: 100%;
 }
+
+/* Anbefalinger */
+
+.anbefalinger img{
+	width:40px;
+}
+
+/* Footer */
+
+
 

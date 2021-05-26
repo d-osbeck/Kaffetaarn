@@ -39,8 +39,10 @@
 <section class="top">
 	<header>
 		<div class="top__header text-white py-2">KAFFETÅR'N</div>
-		<a href=""><button class="bg-primary text-dark rounded py-2 px-3 mx-1 border-0">MENU</button></a>
-		<a href=""><button class="bg-primary text-dark rounded py-2 px-3 mx-1 border-0">BESTIL AFTERNOON TEA</button></a>
+		<div class="top__btn_wrapper text-center">
+			<a href=""><button class="bg-primary text-dark rounded py-2 px-3 mx-1 border-0">MENU</button></a>
+			<a href=""><button class="bg-primary text-dark rounded py-2 px-3 mx-1 border-0">BESTIL BORD</button></a>
+		</div>
 	</header>
 	<div class="top__bg__container">
 		<div class="top__bg__img bg-danger"></div>
@@ -62,10 +64,10 @@
 	<div class="velkommen__img__second"></div>
 </main>
 
-<section class="menu container-fluid bg-danger h-auto">
+<section class="menu container-fluid bg-danger h-auto p-3">
 	<div class="menu__container bg-white m-2 py-5 px-3 h-100">
 		<h1 class="text-center">MENU</h1>
-		<div class="menu__title__line my-4"></div>
+		<div class="title__line my-4"></div>
 
 		<div class="menu__item__container">
 
@@ -80,7 +82,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -92,7 +94,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -104,7 +106,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -116,7 +118,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -128,7 +130,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -150,7 +152,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -161,7 +163,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -173,7 +175,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -185,7 +187,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -197,7 +199,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -209,7 +211,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -232,7 +234,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -243,7 +245,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -254,7 +256,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -265,7 +267,7 @@
 				</div>
 			</div>
 
-		<div class="menu__line my-4"></div>
+		<div class="line my-4"></div>
 
 			<div class="menu__item__wrapper row">
 				<div class="menu__left__col col-8">
@@ -282,38 +284,83 @@
 
 </section>
 
-<section class="anbefalinger container">
+<section class="anbefalinger container py-5">
 	<header class="d-flex justify-content-center">
 		<img src="" alt="?">
 			<h1 class="text-center">HVAD VORES KUNDER SIGER OM OS!</h1>
 		<img src="" alt="?">
 	</header>
 
-	<div class="anbefalinger__boxes__container">
-		<div class="anbefalinger__box__wrapper">
-			<img src="" alt="?">
-			<p></p>
-			<div class="anbefalinger__box__line"></div>
-			<cite>-Jane</cite>
+	<div class="anbefalinger__boxes__container py-5">
+		<div class="anbefalinger__box__wrapper mb-5">
+			<img src="img/anbefaler.svg" alt="anbefaler" class="mb-2">
+			<p>"Min veninde og jeg fik den skønneste afternoon tea igår med lækre småretter og masser af te🎉. Det mindede fuldstændig om at være i London igen🎉.
+				Vi kommer helt sikkert igen til en hyggestund🌸"</p>
+			<div class="line my-4"></div>
+			<cite>- Jane anbefaler</cite>
 		</div>
 
-		<div class="anbefalinger__box__wrapper">
-			<img src="" alt="?">
-			<p></p>
-			<div class="anbefalinger__box__line"></div>
-			<cite>-Lise</cite>
+		<div class="anbefalinger__box__wrapper mb-5">
+			<img src="img/anbefaler.svg" alt="anbefaler" class="mb-2">
+			<p>Jeg kommer tilbage! I dag besøgte jeg caféen og købte en salat og en sodavand fra Møn 😋 Skøn velsmagende, mættende og nærende salat. Sød, elskværdig og personlig betjening. Stamkunde kunne jeg sagtens blive 👍</p>
+			<div class="line my-4"></div>
+			<cite>- Lise anbefaler</cite>
 		</div>
 
-		<div class="anbefalinger__box__wrapper">
-			<img src="" alt="?">
-			<p></p>
-			<div class="anbefalinger__box__line"></div>
-			<cite>-Tessa</cite>
+		<div class="anbefalinger__box__wrapper mb-5">
+			<img src="img/anbefaler.svg" alt="anbefaler" class="mb-2">
+			<p>Fik lækre vegetar sandwich og virkelig god betjening. dejlig med et spisested der lige gør det ekstra, der gør jeg helt sikkert vil komme igen.
+				Tak for rigtig god frokost  😍</p>
+			<div class="line my-4"></div>
+			<cite>- Tessa anbefaler</cite>
 		</div>
 	</div>
 </section>
 
+<footer class="bg-dark h-auto pt-3">
+	<div class="footer__social text-center text-white my-3">
+		<h1 class="fw-normal py-3">FØLG OS</h1>
+		<div class="footer__social__wrapper text-center">
+			<a href="" class="fa-stack fa-lg mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-facebook-f fa-stack-1x text-white"></i></a>
+			<a href="" class="fa-stack fa-lg mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-instagram fa-stack-1x text-white"></i></a>
+		</div>
+	</div>
+
+	<div class="footer__åbningstider text-center text-white my-3">
+		<h1 class="fw-normal py-3">ÅBNINGSTIDER</h1>
+		<p>Mandag-Torsdag: 11.00-14.00</p>
+		<p>Fredag: 11.00-15.00</p>
+		<p>Lørdag: 10.00-15.00</p>
+		<p>Søndag: Lukket</p>
+	</div>
+
+	<div class="footer__adresse text-center text-white my-3">
+		<h1 class="fw-normal py-3">ADRESSE</h1>
+		<p>Hollands Gaard 30, <br> 4800 Nykøbing F.</p>
+	</div>
+
+	<div class="footer__adresse text-center text-white my-3">
+		<h1 class="fw-normal py-3">KONTAKT</h1>
+		<p>Email: kaffetaarn@gmail.com</p>
+		<p>Telefon: 93 94 64 54</p>
+	</div>
+
+	<div class="footer__nav bg-danger h-auto py-4 px-2 mt-5">
+		<nav>
+			<ul class="d-flex justify-content-between">
+				<li><a href="#" class="text-white">MENU</a></li>
+				<li><a href="#" class="text-white">BOOK BORD</a></li>
+				<li><a href="#" class="text-white">OM KAFFETÅR'N</a></li>
+				<li><a href="#" class="text-white">FIND VEJ</a></li>
+			</ul>
+		</nav>
+
+	</div>
+</footer>
+
+<script src="https://kit.fontawesome.com/d7a71e7a7e.js" crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>

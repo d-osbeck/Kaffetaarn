@@ -1,22 +1,25 @@
-// DENNE FIL ER KUN TIL BOOTSTRAP RETTELSER
-
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
-
-//Tilføj eller ret farver i Bootstrap. Herunder er primary blot sat til den normale primary
-/*
-Eksempel på farver
-$custom-colors: (
-        "primary": #0000ff,
-        "minFarve": #ffff00
-);
- */
 
 $custom-colors: (
         "primary": #FBE176,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+$font-weights: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+@each $font-weight in $font-weights {
+  .font-weight-#{$font-weight} {
+    font-weight: $font-weight;
+  }
+}
+
+$opacites: 0, 25, 50, 75, 100;
+@each $opacity in $opacites {
+  .opacity-#{$opacity} {
+    opacity: $opacity/100;
+  }
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";

@@ -24,7 +24,7 @@
 
 <section class="top mb-5">
     <header>
-        <h1 class="top__header text-white py-2 px-md-5">KAFFETÅR'N</h1>
+        <img class="top__logo__tagline align-self-center mb-4" src="img/logo-tagline.svg" alt="logo-tagline">
         <div class="top__btn__wrapper text-center">
             <a href=""><button class="bg-primary text-black font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
             <a href=""><button class="bg-primary text-black font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
@@ -59,7 +59,7 @@
 <section class="menu container-fluid bg-danger h-auto p-3">
     <div class="menu__container mx-auto bg-dark-gray opacity-90 text-white m-2 py-5 px-3 px-md-5 h-100">
         <h1 class="text-center">MENU</h1>
-        <div class="title__line bg-off-gray my-4"></div>
+        <div class="title__line bg-primary my-4"></div>
 
         <div class="menu__item__container container px-0 py-4">
 
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -100,7 +100,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -124,7 +124,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -196,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -208,7 +208,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -231,7 +231,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -242,7 +242,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -253,7 +253,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -264,7 +264,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-off-gray my-4"></div>
+                <div class="line bg-primary my-4"></div>
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">

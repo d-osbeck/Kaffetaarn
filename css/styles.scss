@@ -114,8 +114,7 @@ ul {
 
 .top header{
 	position:absolute;
-	height: 100vh;
-	top: 53%;
+	top: 50%;
 	right: 5%;
 }
 
@@ -127,6 +126,10 @@ ul {
 
 .nav__logo{
 	width:160px;
+}
+
+.top__logo__tagline{
+	width:250px;
 }
 
 /* Velkommen sektion */
@@ -186,6 +189,14 @@ ul {
 
 	.top h1{
 		font-size: 90px;
+	}
+
+	.nav__logo{
+		width:180px;
+	}
+
+	.top__logo__tagline{
+		width:400px;
 	}
 
 	/* Velkommen sektion */
@@ -268,7 +279,7 @@ ul {
 	}
 
 	.top header{
-		right:25%
+		right:28%
 	}
 
 	.menu-btn, .exit-btn{
@@ -286,6 +297,10 @@ ul {
 	.nav nav ul li a{
 		font-size: 1rem;
 		color: #000;
+	}
+
+	.top__logo__tagline{
+		width:500px;
 	}
 
 	/* Velkommen */

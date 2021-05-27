@@ -69,8 +69,40 @@ ul {
 
 }
 
+.header__icon{
+
+  height: auto;
+  max-width: 30px;
+  width: 10%;
+
+}
+
+.header__text{
+
+  color:white;
+  display:inline-block;
+  position:relative;
+
+}
+
+.header__text::after {
+
+  content: '';
+  height: 2px;
+  width: 70%;
+  background: #FBE176;
+  position: absolute;
+  left: calc(25% - 10%);
+  bottom: -12px;
+
+}
+
 @media screen and (min-width: 768px){
+
   .map-responsive{
+
     padding-bottom: 45%;
+
   }
+
 }

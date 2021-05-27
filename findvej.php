@@ -87,10 +87,10 @@
 
     <div class="pt-3 px-3 container bg-dark rounded-2 text-white p-lg-5">
 
-        <header class="d-flex justify-content-center mb-4">
-            <img src="" alt="?">
-            <h1 class="px-2 my-2 ">FIND VEJ</h1>
-            <img src="" alt="?">
+        <header class="d-flex justify-content-center mb-5">
+            <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+            <h1 class="header__text px-2 my-2">FIND VEJ</h1>
+            <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
         </header>
 
         <section class="content d-md-flex flex-md-row mt-3 mb-md-5">
@@ -102,10 +102,10 @@
         </div>
 
         <div class="contact d-flex flex-column col-md-5 align-self-md-center ps-md-3 ps-lg-5">
-            <header class="d-flex justify-content-center mt-4 mb-2">
-                <img src="" alt="?">
-                <h1 class="px-2 my-2 ">ADRESSE</h1>
-                <img src="" alt="?">
+            <header class="d-flex justify-content-center mt-4 mb-4">
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                <h1 class="header__text px-2 my-2 ">ADRESSE</h1>
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
             <p class="text-center mb-4">
@@ -114,10 +114,10 @@
                 4800 Nykøbing F.
             </p>
 
-            <header class="d-flex justify-content-center my-2">
-                <img src="" alt="?">
-                <h1 class="px-2 my-2 ">KONTAKT</h1>
-                <img src="" alt="?">
+            <header class="d-flex justify-content-center my-2 mb-4">
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                <h1 class="header__text px-2 my-2 ">KONTAKT</h1>
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
             <p class="text-center mb-4">
@@ -138,20 +138,14 @@
         </div>
 
         <div class="time d-flex flex-column col-md-5 align-self-md-center ps-md-3 ps-lg-5">
-            <header class="d-flex justify-content-center mt-4 mb-2">
-                <img src="" alt="?">
-                <h1 class="px-2 my-2 ">ÅBNINGSTIDER</h1>
-                <img src="" alt="?">
+            <header class="d-flex justify-content-center mt-4 mb-4">
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                <h1 class="header__text px-2 my-2">ÅBNINGSTIDER</h1>
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
             <p class="text-center mb-4">
-                Mandag: 11.00-14.00
-                <br>
-                Tirsdag: 11.00-14.00
-                <br>
-                Onsdag: 11.00-14.00
-                <br>
-                Torsdag: 11.00-14.00
+                Mandag-Torsdag: 11.00-14.00
                 <br>
                 Fredag: 11.00-15.30
                 <br>

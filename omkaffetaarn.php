@@ -83,7 +83,54 @@
 
 <?php include 'nav.php';?>
 
+<main class="omkaffetaarn px-3 py-5 d-flex text-white">
 
+    <div class="omkaffetaarn__card py-3 px-3 container rounded-2 text-white p-lg-5 d-flex flex-column">
+
+        <section class="content d-md-flex flex-md-row mt-3 mb-md-5">
+
+            <div class="col-md-6">
+                <img class="image" src="img/texture-bg.jpg" alt="">
+            </div>
+
+            <div class="time d-flex flex-column col-md-6 align-self-md-center ps-md-3 ps-lg-5">
+                <header class="d-flex justify-content-center mt-4 mb-4 mt-md-0">
+                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                    <h1 class="header__text px-2 my-2 text-center">DEA OG KAFFETÅRN</h1>
+                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+                </header>
+
+                <p class="text-center mb-4">
+                    I midten af Nykøbing Falster, I bunden af det store gule vandtårn, ligger den lille hyggelige café - KAFFETÅR'N.
+                    <br><br>
+                    Dea Guttman, der har en baggrund indenfor arkæologi og fodpleje, overtog i 2020 caféen og nyder at byde sine gæster velkommen på sit spisested i de hyggelige, rustikke omgivelser.
+                    <br><br>
+                    Hun var ikke et sekund i tvivl, da hun fik chancen for at overtage caféen.
+                    <br><br>
+                    “Skal vi ikke tage en kop kaffe?”; det kan betyde en masse siger Dea og smiler stort - Det er det samme smil kunderne bliver mødt af, når de træder ind i caféen. Dea går meget op i det personlige, det rummelige og hjertevarmen.
+                    <br><br>
+                    Caféen der, med sin runde form, favner gæsterne og med mormorduge, engelske tekopper og de romantiske sofaer og andre genbrugsfund, danner rammen om mange hyggelige snakke og velsmagende retter.
+                </p>
+            </div>
+
+        </section>
+
+        <div class="text-center">
+            <a href="#" class="btn btn-primary me-3">MENU</a>
+            <a href="#" class="btn btn-primary ms-3">FIND VEJ</a>
+        </div>
+
+    </div>
+
+</main>
+
+<section class="history bg-white px-3 py-5 d-flex">
+
+    <div class="">
+
+    </div>
+
+</section>
 
 <?php include 'footer.php';?>
 

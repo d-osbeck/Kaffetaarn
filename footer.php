@@ -23,7 +23,7 @@
     <div class="footer__adresse text-center text-white my-3">
         <h1 class="fw-normal py-3">KONTAKT</h1>
         <p>Email: kaffetaarn@gmail.com</p>
-        <p>Telefon: 93 94 64 54</p>
+        <p>Telefon: +45 93 94 64 54</p>
     </div>
 
     <div class="footer__nav bg-danger h-auto py-4 px-2 mt-5">

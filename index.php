@@ -24,31 +24,38 @@
 
 <section class="top">
     <header>
-        <div class="top__header text-white py-2">KAFFETÅR'N</div>
+        <h1 class="top__header text-white py-2 px-md-5">KAFFETÅR'N</h1>
         <div class="top__btn__wrapper text-center">
-            <a href=""><button class="bg-primary text-dark rounded py-2 px-4 mx-1 border-0">MENU</button></a>
-            <a href=""><button class="bg-primary text-dark rounded py-2 px-4 mx-1 border-0">BESTIL BORD</button></a>
+            <a href=""><button class="bg-primary text-dark font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href=""><button class="bg-primary text-dark font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
         </div>
     </header>
-    <div class="top__bg__container">
+    <div class="top__bg__container d-xl-flex">
         <div class="top__bg__img bg-danger"></div>
         <div class="top__bg__texture"></div>
     </div>
 </section>
 
-<main class="velkommen container">
-    <div class="velkommen__box__wrapper bg-white p-5 mb-5">
+<section class="velkommen container-fluid p-0">
+    <div class="velkommen__box__wrapper container bg-white p-5 mb-5">
         <header class="d-flex justify-content-center">
             <img src="" alt="?">
-            <h1 class="px-2 my-2">VELKOMMEN</h1>
+            <h1 class="px-2 mb-4 text-center font-weight-500">EN UNIK OPLEVELSE</h1>
             <img src="" alt="?">
         </header>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod accumsan molestie. Integer auctor turpis in massa ultrices elementum nec at mauris. Duis eu lectus sed mi dapibus mattis. Aliquam erat volutpat.</p>
+        <p class="">I hjertet af Nykøbing F. tårner det gule vandtårn sig op over byens tage.
+            <br><br>
+            Sæt dig tilrette i de hyggelige sofaer, nyd en friskbrygget kop kaffe, en lækker kage eller en sandwich, fortrinsvis lavet med lokale og økologiske råvarer.
+            <br><br>
+            Der er kælet for de hyggelige detaljer,
+            hvor end du kigger hen.</p>
     </div>
 
-    <div class="velkommen__img__first"></div>
-    <div class="velkommen__img__second"></div>
-</main>
+    <div class="velkommen__img__wrapper container-fluid p-0 mb-5">
+        <div class="velkommen__img__first w-100 bg-dark mb-2"></div>
+        <div class="velkommen__img__second w-100 bg-danger mb-5"></div>
+    </div>
+</section>
 
 <section class="menu container-fluid bg-danger h-auto p-3">
     <div class="menu__container bg-white m-2 py-5 px-3 h-100">

@@ -1,4 +1,5 @@
-<footer class="bg-dark h-auto pt-3">
+<footer class="bg-light-gray h-auto">
+    <div class="footer__container container">
     <div class="footer__social text-center text-white my-3">
         <h1 class="fw-normal py-3">FØLG OS</h1>
         <div class="footer__social__wrapper text-center">
@@ -20,15 +21,17 @@
         <p>Hollands Gaard 30, <br> 4800 Nykøbing F.</p>
     </div>
 
-    <div class="footer__adresse text-center text-white my-3">
+    <div class="footer__adresse text-center text-white my-3 col">
         <h1 class="fw-normal py-3">KONTAKT</h1>
         <p>Email: kaffetaarn@gmail.com</p>
         <p>Telefon: +45 93 94 64 54</p>
     </div>
 
-    <div class="footer__nav bg-danger h-auto py-4 px-2 mt-5">
+    </div>
+
+    <div class="footer__nav bg-dark-gray h-auto py-4 px-1 px-md-2 mt-5">
         <nav>
-            <ul class="d-flex justify-content-between">
+            <ul class="d-flex justify-content-around container p-0">
                 <li><a href="#" class="text-white">MENU</a></li>
                 <li><a href="#" class="text-white">BOOK BORD</a></li>
                 <li><a href="#" class="text-white">OM KAFFETÅR'N</a></li>
@@ -36,4 +39,5 @@
             </ul>
         </nav>
     </div>
+
 </footer>

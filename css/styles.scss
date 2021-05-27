@@ -61,13 +61,11 @@ ul {
 	width: 100%;
 	top: 0;
 	right: 0;
-	display: grid;
-	grid-template-columns: 50% auto;
 	z-index: -1;
 }
 
 .top__bg__img {
-	height: calc(100vh - 256px);
+	height: calc(100vh - 200px);
 	width: 75%;
 	position: absolute;
 	top: 4rem;
@@ -80,7 +78,7 @@ ul {
 	background-size:cover;
 	position: absolute;
 	width: 60%;
-	height: calc(100vh - 120px);
+	height: calc(100vh - 97.69px);
 	top: 0;
 	right: 0;
 }
@@ -98,7 +96,12 @@ ul {
 }
 
 .nav nav ul li a{
+	overflow: hidden;
 	color: white;
+}
+
+.nav nav ul li a:hover{
+	text-decoration: 2px underline wavy #FBE176;
 }
 
 .nav__menu__exit__btn img {
@@ -111,8 +114,7 @@ ul {
 
 .top header{
 	position:absolute;
-	height: 100vh;
-	top: 53%;
+	top: 50%;
 	right: 5%;
 }
 
@@ -122,18 +124,43 @@ ul {
 	font-family: 'Oswald', sans-serif;
 }
 
+.nav__logo{
+	width:160px;
+}
+
+.top__logo__tagline{
+	width:250px;
+}
+
 /* Velkommen sektion */
 
 .velkommen__img__first{
 	height:300px;
+	width:100%;
 }
 
 .velkommen__img__second{
 	height:300px;
+	width:100%;
+}
+
+.headline{
+	color:black;
+	display:inline-block;
+	position:relative;
+}
+
+.headline::after{
+	content: '';
+	height: 2px;
+	width: 70%;
+	background: #FBE176;
+	position: absolute;
+	left: calc(25% - 10%);
+	bottom: -12px;
 }
 
 /* Menu */
-
 .title__line{
 	height: 2px;
 	background: #1a1e21;
@@ -143,7 +170,6 @@ ul {
 .line{
 	height: 2px;
 	background: #1a1e21;
-	width: 100%;
 }
 
 /* Anbefalinger */
@@ -152,7 +178,6 @@ ul {
 	width:40px;
 }
 
-/* Footer */
 
 @media only screen and (min-width: 768px){
 
@@ -165,6 +190,79 @@ ul {
 	.top h1{
 		font-size: 90px;
 	}
+
+	.nav__logo{
+		width:180px;
+	}
+
+	.top__logo__tagline{
+		width:400px;
+	}
+
+	.top__bg__texture{
+		height: calc (100vh - 103.91px);
+	}
+
+	/* Velkommen sektion */
+
+	.velkommen{
+		display: grid;
+		position: relative;
+		grid-template-columns: repeat(12, 1fr);
+		grid-gap: 1rem;
+		margin-bottom: 12rem;
+	}
+
+	.velkommen__box__wrapper{
+		height:80%;
+		grid-column: 1 / span 6;
+		grid-row: 1;
+		align-self: center;
+		z-index: 2;
+	}
+	.velkommen__img__first{
+		grid-column: 5 / 9;
+		grid-row: 1;
+		z-index: 1;
+		height:600px;
+	}
+
+	.velkommen__img__second{
+		grid-column: 9 / 13;
+		grid-row: 1;
+		align-self: center;
+		height:500px;
+	}
+
+	/* Menu */
+	.menu__item__container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 4rem;
+	}
+
+	.menu__left__col{
+		grid-column: 1 / 2;
+		grid-row: 1;
+	}
+
+	.menu__right__col{
+		grid-column: 2 / 3;
+		grid-row: 1;
+		padding-top: 54px;
+	}
+
+	/* Footer */
+
+	.footer__container{
+		display: grid;
+		grid-template-columns:  1fr 1fr;
+		padding: 2rem 5rem;
+	}
+
+	.footer__nav ul{
+		max-width: 500px;
+	}
 }
 
 @media only screen and (min-width: 1200px){
@@ -173,6 +271,11 @@ ul {
 	.top__bg__img{
 		width:45%;
 		right:35%;
+		height: calc(100vh - 224px);
+	}
+
+	.top__bg__texture{
+		height: calc(100vh - 99px);
 	}
 
 	.top h1{
@@ -180,7 +283,7 @@ ul {
 	}
 
 	.top header{
-		right:25%
+		right:28%
 	}
 
 	.menu-btn, .exit-btn{
@@ -197,6 +300,27 @@ ul {
 
 	.nav nav ul li a{
 		font-size: 1rem;
-		color: #222222;
+		color: #000;
+	}
+
+	.top__logo__tagline{
+		width:500px;
+	}
+
+	/* Velkommen */
+	.velkommen__box__wrapper{
+		grid-column: 1 / span 4;
+	}
+
+	.velkommen__img__first{
+		grid-column: 4 / 9;
+	}
+
+	/* Menu */
+	.menu__container{
+		width: 80%;
 	}
 }
+
+
+

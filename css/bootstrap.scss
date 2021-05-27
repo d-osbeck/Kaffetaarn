@@ -15,7 +15,7 @@ $font-weights: 100, 200, 300, 400, 500, 600, 700, 800, 900;
   }
 }
 
-$opacites: 0, 25, 50, 75, 100;
+$opacites: 0, 25, 50, 75, 90, 100;
 @each $opacity in $opacites {
   .opacity-#{$opacity} {
     opacity: $opacity/100;

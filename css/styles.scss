@@ -80,18 +80,25 @@ ul {
 	background-size:cover;
 	position: absolute;
 	width: 60%;
-	height: calc(100vh - 128px);
+	height: calc(100vh - 120px);
 	top: 0;
 	right: 0;
 }
 
 .nav nav ul {
+	height: 100vh;
+	background: #222222;
 	top: 0;
 	right: 0;
+	position: fixed;
 	width: 66%;
 	z-index: 2;
 	transform: translateX(100%);
 	transition: transform .3s;
+}
+
+.nav nav ul li a{
+	color: white;
 }
 
 .nav__menu__exit__btn img {
@@ -116,6 +123,14 @@ ul {
 }
 
 /* Velkommen sektion */
+
+.velkommen__img__first{
+	height:300px;
+}
+
+.velkommen__img__second{
+	height:300px;
+}
 
 /* Menu */
 
@@ -152,6 +167,54 @@ ul {
 
 
 }
+
+@media only screen and (min-width: 768px){
+
+	/* Nav & hero */
+	.top__bg__img{
+		width:60%;
+		right: 20%;
+	}
+
+	.top h1{
+		font-size: 90px;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+
+	/* Nav & hero */
+	.top__bg__img{
+		width:45%;
+		right:35%;
+	}
+
+	.top h1{
+		font-size:120px;
+	}
+
+	.top header{
+		right:25%
+	}
+
+	.menu-btn, .exit-btn{
+		display: none;
+	}
+
+	.nav nav ul{
+		transform: translateX(0);
+		width: unset;
+		background:none;
+		position: unset;
+		height: auto;
+	}
+
+	.nav nav ul li a{
+		font-size: 1rem;
+		color: #222222;
+	}
+}
+
 
 .map-responsive iframe{
 

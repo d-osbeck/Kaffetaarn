@@ -85,7 +85,7 @@
 
 <main class="findvej px-3 py-5 d-flex">
 
-    <div class="pt-3 px-3 container bg-dark rounded-2 text-white p-lg-5">
+    <div class="findvej__card pt-3 px-3 container rounded-2 text-white p-lg-5">
 
         <header class="d-flex justify-content-center mb-5">
             <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
@@ -123,9 +123,10 @@
             <p class="text-center mb-4">
                 Email:
                 <br>
-                kaffetaarn@gmail.com
+                <a href="mailto: kaffetaarn@gmail.com" class="link__text">kaffetaarn@gmail.com</a>
                 <br>
-                Telefon: 93 94 64 65
+                Telefon:
+                <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>
             </p>
         </div>
 

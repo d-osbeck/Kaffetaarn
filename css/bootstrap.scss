@@ -4,6 +4,11 @@
 
 $custom-colors: (
         "primary": #FBE176,
+        "off-gray": #878787,
+        "background": #FFF9F3,
+        "black": #000,
+        "light-gray": #222222,
+        "dark-gray": #1B1B1B,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);

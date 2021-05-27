@@ -154,20 +154,6 @@ ul {
 
 /* Footer */
 
-.findvej {
-	background: #1a1e21 url("../img/texture-bg.jpg");
-	background-size:cover;
-}
-
-.map-responsive{
-
-	overflow:hidden;
-	padding-bottom: 100%;
-	position:relative;
-
-
-}
-
 @media only screen and (min-width: 768px){
 
 	/* Nav & hero */
@@ -212,20 +198,5 @@ ul {
 	.nav nav ul li a{
 		font-size: 1rem;
 		color: #222222;
-	}
-}
-
-
-.map-responsive iframe{
-
-	height:100%;
-	width:100%;
-	position:absolute;
-
-}
-
-@media screen and (min-width: 768px){
-	.map-responsive{
-		padding-bottom: 45%;
 	}
 }

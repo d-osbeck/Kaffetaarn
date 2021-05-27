@@ -71,6 +71,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/findvej.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
@@ -169,6 +170,7 @@
 <?php include 'footer.php';?>
 
 <script src="script.js"></script>
+<script src="https://kit.fontawesome.com/d7a71e7a7e.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

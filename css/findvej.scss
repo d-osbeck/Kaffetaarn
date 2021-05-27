@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #FFF9F3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+ul, ol {
+  margin: 2px 10px 2px 10px;
+  padding: 0;
+  list-style-position: inside;
+}
+
+li {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+}
+
+cite {
+  font-family: 'EB Garamond', serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.findvej {
+  background: #1a1e21 url("../img/texture-bg.jpg");
+  background-size:cover;
+}
+
+.map-responsive{
+
+  overflow:hidden;
+  padding-bottom: 100%;
+  position:relative;
+
+}
+
+.map-responsive iframe{
+
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+
+@media screen and (min-width: 768px){
+  .map-responsive{
+    padding-bottom: 45%;
+  }
+}

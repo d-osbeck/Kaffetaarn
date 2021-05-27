@@ -65,7 +65,7 @@ ul {
 }
 
 .top__bg__img {
-	height: calc(100vh - 190px);
+	height: calc(100vh - 200px);
 	width: 75%;
 	position: absolute;
 	top: 4rem;
@@ -78,7 +78,7 @@ ul {
 	background-size:cover;
 	position: absolute;
 	width: 60%;
-	height: calc(100vh - 72px);
+	height: calc(100vh - 97.69px);
 	top: 0;
 	right: 0;
 }
@@ -197,6 +197,10 @@ ul {
 
 	.top__logo__tagline{
 		width:400px;
+	}
+
+	.top__bg__texture{
+		height: calc (100vh - 103.91px);
 	}
 
 	/* Velkommen sektion */

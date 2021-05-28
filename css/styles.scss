@@ -65,7 +65,8 @@ ul {
 }
 
 .top__bg__img {
-	background: #1a1e21 url("../img/front-billede.png");
+	background: url("../img/front-billede.png");
+	background-size: cover	;
 	height: calc(100vh - 200px);
 	width: 75%;
 	position: absolute;
@@ -75,7 +76,7 @@ ul {
 }
 
 .top__bg__texture {
-	background: #1a1e21 url("../img/texture-bg.jpg");
+	background: url("../img/texture-bg.jpg");
 	background-size:cover;
 	position: absolute;
 	width: 60%;
@@ -133,6 +134,10 @@ ul {
 	width:250px;
 }
 
+.top__btn__wrapper{
+	font-size: 24px;
+}
+
 /* Velkommen sektion */
 
 .velkommen__img__first{
@@ -162,6 +167,12 @@ ul {
 }
 
 /* Menu */
+
+.menu{
+	background: url("../img/salat.png");
+	background-size: cover;
+}
+
 .title__line{
 	height: 2px;
 	background: #1a1e21;
@@ -171,6 +182,23 @@ ul {
 .line{
 	height: 2px;
 	background: #1a1e21;
+}
+
+.main-text{
+	font-size: 1.25rem;
+}
+
+.sub-text{
+	font-size: 1rem;
+}
+
+.menu__logo__tagline{
+	width:100%;
+	height:100px;
+}
+
+.menu__container .kaffe-icon{
+	width:40px;
 }
 
 /* Anbefalinger */
@@ -253,6 +281,19 @@ ul {
 		padding-top: 54px;
 	}
 
+	.main-text{
+		font-size: calc(1.275rem + .3vw);
+	}
+
+	.sub-text{
+		font-size: 1.25rem
+	}
+
+	.menu__logo__tagline{
+		width:100%;
+		height:150px;
+	}
+
 	/* Footer */
 
 	.footer__container{
@@ -276,7 +317,7 @@ ul {
 	}
 
 	.top__bg__texture{
-		height: calc(100vh - 99px);
+		height: calc(100vh - 116px);
 	}
 
 	.top h1{

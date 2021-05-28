@@ -87,14 +87,14 @@
 
     <div class="omkaffetaarn__card py-3 px-3 container rounded-2 text-white p-lg-5 d-flex flex-column">
 
-        <section class="content d-md-flex flex-md-row mt-3 mb-md-5">
+        <section class="content d-lg-flex flex-lg-row mt-3 mb-lg-5">
 
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <img class="image" src="img/Dea.png" alt="">
             </div>
 
-            <div class="time d-flex flex-column col-md-6 align-self-md-center ps-md-3 ps-lg-5">
-                <header class="d-flex justify-content-center mt-4 mb-4 mt-md-0">
+            <div class="time d-flex flex-column col-lg-6 align-self-lg-center ps-lg-3 ps-lg-5">
+                <header class="d-flex justify-content-center mt-4 mb-4 mt-lg-0">
                     <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
                     <h1 class="header__text px-2 my-2 text-center">DEA OG KAFFETÅRN</h1>
                     <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
@@ -115,7 +115,7 @@
 
         </section>
 
-        <div class="text-center">
+        <div class="text-center mb-2">
             <a href="#" class="btn btn-primary me-3">MENU</a>
             <a href="#" class="btn btn-primary ms-3">FIND VEJ</a>
         </div>

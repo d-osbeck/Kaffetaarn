@@ -90,7 +90,7 @@
         <section class="content d-md-flex flex-md-row mt-3 mb-md-5">
 
             <div class="col-md-6">
-                <img class="image" src="img/texture-bg.jpg" alt="">
+                <img class="image" src="img/Dea.png" alt="">
             </div>
 
             <div class="time d-flex flex-column col-md-6 align-self-md-center ps-md-3 ps-lg-5">

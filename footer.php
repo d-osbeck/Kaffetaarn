@@ -32,10 +32,10 @@
     <div class="footer__nav bg-dark-gray h-auto py-4 px-1 px-md-2 mt-5">
         <nav>
             <ul class="d-flex justify-content-around container p-0">
-                <li><a href="#" class="text-white">MENU</a></li>
-                <li><a href="#" class="text-white">BOOK BORD</a></li>
-                <li><a href="#" class="text-white">OM KAFFETÅR'N</a></li>
-                <li><a href="#" class="text-white">FIND VEJ</a></li>
+                <li><a href="#" class="text-white fs-4">MENU</a></li>
+                <li><a href="#" class="text-white fs-4">BOOK BORD</a></li>
+                <li><a href="#" class="text-white fs-4">OM KAFFETÅR'N</a></li>
+                <li><a href="#" class="text-white fs-4">FIND VEJ</a></li>
             </ul>
         </nav>
     </div>

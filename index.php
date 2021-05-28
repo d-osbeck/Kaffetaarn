@@ -12,7 +12,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/alv5vit.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -31,7 +32,7 @@
         </div>
     </header>
     <div class="top__bg__container d-xl-flex">
-        <div class="top__bg__img bg-danger"></div>
+        <div class="top__bg__img"></div>
         <div class="top__bg__texture"></div>
     </div>
 </section>

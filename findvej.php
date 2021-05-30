@@ -74,7 +74,8 @@
     <link href="css/findvej.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/alv5vit.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -120,7 +121,7 @@
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
-            <p class="text-center mb-4">
+            <p class="contact__links text-center mb-4">
                 Email:
                 <br>
                 <a href="mailto: kaffetaarn@gmail.com" class="link__text">kaffetaarn@gmail.com</a>

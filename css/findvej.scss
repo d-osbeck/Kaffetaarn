@@ -110,7 +110,10 @@ ul {
   position: absolute;
   left: calc(25% - 10%);
   bottom: -12px;
+}
 
+.contact__links a{
+  font-family: 'Jost', sans-serif;
 }
 
 @media screen and (min-width: 768px){

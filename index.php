@@ -307,14 +307,14 @@
             <img src="img/anbefaler.svg" alt="anbefaler" class="mb-2">
             <p>"Min veninde og jeg fik den skønneste afternoon tea igår med lækre småretter og masser af te🎉. Det mindede fuldstændig om at være i London igen🎉.
                 Vi kommer helt sikkert igen til en hyggestund🌸"</p>
-            <div class="line my-4"></div>
+            <div class="line bg-primary my-4"></div>
             <cite>- Jane anbefaler</cite>
         </div>
 
         <div class="anbefalinger__box__wrapper mb-5 mx-md-3 mx-xl-5">
             <img src="img/anbefaler.svg" alt="anbefaler" class="mb-2">
             <p>Jeg kommer tilbage! I dag besøgte jeg caféen og købte en salat og en sodavand fra Møn 😋 Skøn velsmagende, mættende og nærende salat. Sød, elskværdig og personlig betjening. Stamkunde kunne jeg sagtens blive 👍</p>
-            <div class="line my-4"></div>
+            <div class="line bg-primary my-4"></div>
             <cite>- Lise anbefaler</cite>
         </div>
 
@@ -322,7 +322,7 @@
             <img src="img/anbefaler.svg" alt="anbefaler" class="mb-2">
             <p>Fik lækre vegetar sandwich og virkelig god betjening. dejlig med et spisested der lige gør det ekstra, der gør jeg helt sikkert vil komme igen.
                 Tak for rigtig god frokost  😍</p>
-            <div class="line my-4"></div>
+            <div class="line bg-primary my-4"></div>
             <cite>- Tessa anbefaler</cite>
         </div>
     </div>

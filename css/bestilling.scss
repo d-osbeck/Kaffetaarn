@@ -1,0 +1,15 @@
+.bestilling__content{
+}
+
+.bestilling__form__item{
+  max-width: 50%;
+}
+
+@media only screen and (min-width: 768px){
+  .bestilling__form__item{
+    max-width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+}

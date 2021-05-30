@@ -8,23 +8,23 @@
         </div>
     </div>
 
-    <div class="footer__åbningstider text-center text-white my-3">
-        <h1 class="fw-normal py-3">ÅBNINGSTIDER</h1>
-        <p>Mandag-Torsdag: 11.00-14.00</p>
-        <p>Fredag: 11.00-15.00</p>
-        <p>Lørdag: 10.00-15.00</p>
-        <p>Søndag: Lukket</p>
+    <div class="footer__åbningstider text-center my-3">
+        <h1 class="fw-normal py-3 text-white">ÅBNINGSTIDER</h1>
+        <p class="text-off-gray">Mandag-Torsdag: 11.00-14.00</p>
+        <p class="text-off-gray">Fredag: 11.00-15.00</p>
+        <p class="text-off-gray">Lørdag: 10.00-15.00</p>
+        <p class="text-off-gray">Søndag: Lukket</p>
     </div>
 
     <div class="footer__adresse text-center text-white my-3">
         <h1 class="fw-normal py-3">ADRESSE</h1>
-        <p>Hollands Gaard 30, <br> 4800 Nykøbing F.</p>
+        <p class="text-off-gray">Hollands Gaard 30, <br> 4800 Nykøbing F.</p>
     </div>
 
     <div class="footer__adresse text-center text-white my-3 col">
         <h1 class="fw-normal py-3">KONTAKT</h1>
-        <p>Email: kaffetaarn@gmail.com</p>
-        <p>Telefon: +45 93 94 64 54</p>
+        <p class="text-off-gray">Email: kaffetaarn@gmail.com</p>
+        <p class="text-off-gray">Telefon: +45 93 94 64 54</p>
     </div>
 
     </div>
@@ -33,9 +33,9 @@
         <nav>
             <ul class="d-flex justify-content-around container p-0">
                 <li><a href="#" class="text-white fs-4">MENU</a></li>
-                <li><a href="#" class="text-white fs-4">BOOK BORD</a></li>
-                <li><a href="#" class="text-white fs-4">OM KAFFETÅR'N</a></li>
-                <li><a href="#" class="text-white fs-4">FIND VEJ</a></li>
+                <li><a href="bestilling.php" class="text-white fs-4">BOOK BORD</a></li>
+                <li><a href="omkaffetaarn.php" class="text-white fs-4">OM KAFFETÅR'N</a></li>
+                <li><a href="findvej.php" class="text-white fs-4">FIND VEJ</a></li>
             </ul>
         </nav>
     </div>

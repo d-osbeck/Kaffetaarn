@@ -96,7 +96,7 @@
             <div class="time d-flex flex-column col-lg-6 align-self-lg-center ps-lg-3 ps-lg-5">
                 <header class="d-flex justify-content-center mt-4 mb-4 mt-lg-0">
                     <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
-                    <h1 class="header__text px-2 my-2 text-center">DEA OG KAFFETÅRN</h1>
+                    <h1 class="headline text-white px-2 my-2 text-center">DEA OG KAFFETÅRN</h1>
                     <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
                 </header>
 

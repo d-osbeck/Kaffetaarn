@@ -61,26 +61,6 @@ ul {
 
 }
 
-.header__text{
-
-  color:white;
-  display:inline-block;
-  position:relative;
-
-}
-
-.header__text::after {
-
-  content: '';
-  height: 2px;
-  width: 70%;
-  background: #FBE176;
-  position: absolute;
-  left: calc(25% - 10%);
-  bottom: -12px;
-
-}
-
 .btn{
 
   width: 110px;

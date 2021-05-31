@@ -27,8 +27,8 @@
     <header>
         <img class="top__logo__tagline align-self-center mb-4" src="img/logo-tagline.svg" alt="logo-tagline">
         <div class="top__btn__wrapper text-center">
-            <a href=""><button class="bg-primary text-black font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
-            <a href=""><button class="bg-primary text-black font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
+            <a href=""><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href=""><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
         </div>
     </header>
     <div class="top__bg__container d-xl-flex">
@@ -40,9 +40,9 @@
 <section class="velkommen container p-0">
     <div class="velkommen__box__wrapper container bg-white p-5 mb-5 mb-md-0">
         <header class="d-flex justify-content-center mb-4">
-            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
             <h1 class="headline px-2 my-2 text-center">EN UNIK OPLEVELSE</h1>
-            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
         </header>
         <p class="">I hjertet af Nykøbing F. tårner det gule vandtårn sig op over byens tage.
             <br><br>
@@ -142,6 +142,8 @@
                     </div>
                 </div>
 
+                <div class="line bg-primary my-4"></div>
+
                 <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">KAGER</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -227,6 +229,8 @@
                         <p class="main-text font-weight-500">30 dkk</p>
                     </div>
                 </div>
+
+                <div class="line bg-primary my-4"></div>
 
                 <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">DRIKKE</h2>
                 <div class="menu__item__wrapper row">

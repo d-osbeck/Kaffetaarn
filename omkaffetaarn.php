@@ -96,9 +96,9 @@
 
             <div class="time d-flex flex-column col-lg-6 align-self-lg-center ps-lg-3 ps-lg-5">
                 <header class="d-flex justify-content-center mt-4 mb-4 mt-lg-0">
-                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
                     <h1 class="header__text px-2 my-2 text-center">DEA OG KAFFETÅRN</h1>
-                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
                 </header>
 
                 <p class="text-center mb-4">
@@ -117,8 +117,8 @@
         </section>
 
         <div class="text-center mb-2">
-            <a href="#" class="btn btn-primary me-3">MENU</a>
-            <a href="#" class="btn btn-primary ms-3">FIND VEJ</a>
+            <a href=""><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href=""><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">FIND VEJ</button></a>
         </div>
 
     </div>

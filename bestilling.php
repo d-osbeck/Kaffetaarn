@@ -35,9 +35,9 @@
 
             <div class="bestilling__header__wrapper d-md-flex justify-content-center flex-column p-md-3 mx-lg-3 mx-xxl-0 p-xxl-5">
             <header class="bestilling__header d-flex justify-content-center mt-4 mb-4">
-                <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
                 <h1 class="headline text-white px-2 my-2">AFTERNOON TEA</h1>
-                <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+                <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
             </header>
 
             <p>Vores afternoon Tea består af 10 lækre delikatesser inkl. fri kaffe/te. I kan blive siddende lige så længe I har lyst, i vores hyggelige omgivelser. <br><br>

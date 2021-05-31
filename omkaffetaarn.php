@@ -72,7 +72,6 @@
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/omkaffetaarn.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/alv5vit.css">
@@ -125,12 +124,36 @@
 
 </main>
 
-<section class="history bg-white px-3 py-5 d-flex">
+<section class="history container py-5 p-0">
 
-    <div class="">
 
+    <div class="history__img__first bg-dark mb-4 mb-lg-0 align-self-center">
+        <img src="" alt="">
     </div>
 
+    <div class="history__img__second bg-danger mb-4 mb-lg-0 align-self-center">
+        <img src="" alt="">
+    </div>
+
+
+    <div class="history__box__wrapper container-lg bg-white p-4">
+        <header class="d-flex justify-content-center mb-4">
+            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+            <h1 class="headline px-2 my-2 text-center">EN UNIK OPLEVELSE</h1>
+            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+        </header>
+        <p class="">I hjertet af Nykøbing Falster står et stykke lokalhistorie - det store gule vandtårn.
+            Med sine 43 meter kan det ses fra hele byen og tilmed fra Lollandssiden.
+            <br><br>
+            Det er tegnet af Einar Ambt og Alf Jørgensen, og det blev opført i 1908 og fungerede om byens vandforsyning indtil 1976.
+            <br>
+            Da det blev opført var det Danmarks første jernbetonbyggeri.
+            Bygningen betegnes som et vartegn for Nykøbing Falster.
+            <br><br>
+            I 1993 blev vandtårnet kraftigt renoveret, hvilket indbefattede reparationer, nyt puds på ydersiden og der blev etableret syv etager ind i tårnet.
+            Efterfølgende er man begyndt at benytte tårnet udstillinger om byens historie og galleri.
+            Fire etager er afsat til udstillinger og tårnets stueetage huser café KAFFETÅR'N.
+    </div>
 </section>
 
 <?php include 'footer.php';?>

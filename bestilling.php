@@ -5,11 +5,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-    <title>Sigende titel</title>
+    <title>Afternoon Tea, bestil bord - Kaffetårn</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="copyright" content="© Copyright 2021. All Rights Reserved">
+    <meta name="description" content="Bestil bord til Afternoon Tea på cafe og spisested, Kaffetårn, i Nykøbing F. Så du sikret en hyggelig Afternoon.">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/bestilling.css" rel="stylesheet" type="text/css">

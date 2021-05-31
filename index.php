@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Kaffetårn - café og spisested, Nykøbing F</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="copyright" content="© Copyright 2021. All Rights Reserved">
+    <meta name="description" content="Café og spisested midt i Nykøbing F. Caféen ligger i det gamle vandtårn i Nykøbing F, og er en hyggelige lille cafe og spisested, med massere af charme.">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -292,8 +293,9 @@
             </div>
         </div>
 
+        <p class="text-center fs-4 my-4">Kontakt os for information om indhold af allergene ingredienser i vores retter.</p>
         <div class="menu__link__wrapper w-100 d-flex justify-content-center">
-        <a href="#" class="text-decoration-underline mt-3 text-white fw-normal h1">SE MERE</a>
+        <a href="http://farligzebra.dk/Menukort.pdf" target="_blank" class="text-decoration-underline mt-3 text-white fw-normal h1">SE MERE</a>
         </div>
     </div>
 

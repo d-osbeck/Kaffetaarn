@@ -28,8 +28,8 @@
     <header>
         <img class="top__logo__tagline align-self-center mb-4" src="img/logo-tagline.svg" alt="logo-tagline">
         <div class="top__btn__wrapper text-center">
-            <a href=""><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
-            <a href=""><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
+            <a href="http://farligzebra.dk/Menukort.pdf" target="_blank"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href="bestilling.php"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
         </div>
     </header>
     <div class="top__bg__container d-xl-flex">

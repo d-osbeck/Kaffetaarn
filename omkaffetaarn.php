@@ -100,7 +100,7 @@
                     <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
                 </header>
 
-                <p class="text-center mb-4">
+                <p class="text-start mb-4">
                     I midten af Nykøbing Falster, I bunden af det store gule vandtårn, ligger den lille hyggelige café - KAFFETÅR'N.
                     <br><br>
                     Dea Guttman, der har en baggrund indenfor arkæologi og fodpleje, overtog i 2020 caféen og nyder at byde sine gæster velkommen på sit spisested i de hyggelige, rustikke omgivelser.
@@ -136,11 +136,11 @@
     </div>
 
 
-    <div class="history__box__wrapper container-lg bg-white p-4">
+    <div class="history__box__wrapper container-lg bg-white p-5">
         <header class="d-flex justify-content-center mb-4">
-            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
             <h1 class="headline px-2 my-2 text-center">EN UNIK OPLEVELSE</h1>
-            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+            <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
         </header>
         <p class="">I hjertet af Nykøbing Falster står et stykke lokalhistorie - det store gule vandtårn.
             Med sine 43 meter kan det ses fra hele byen og tilmed fra Lollandssiden.

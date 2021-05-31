@@ -1,0 +1,53 @@
+.bestilling__form__item{
+  max-width: 250px;
+}
+
+@media only screen and (min-width: 768px){
+  .bestilling__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .bestilling__img{
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .bestilling__content header{
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .bestilling__content p{
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+
+  .bestilling__formular{
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+
+  .bestilling__row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%
+  }
+
+  .bestilling__form__item{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    max-width: unset;
+  }
+
+  .bestilling__form__item textarea{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+}

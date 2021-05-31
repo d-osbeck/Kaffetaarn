@@ -121,7 +121,7 @@
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
-            <p class="text-center mb-4">
+            <p class="contact__links text-center mb-4">
                 Email:
                 <br>
                 <a href="mailto: kaffetaarn@gmail.com" class="link__text">kaffetaarn@gmail.com</a>

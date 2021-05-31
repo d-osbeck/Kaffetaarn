@@ -65,8 +65,8 @@ ul {
 }
 
 .top__bg__img {
-	background: url("../img/front-billede.png");
-	background-size: cover	;
+	background: url("../img/front-test.png");
+	background-size: cover;
 	height: calc(100vh - 220px);
 	width: 75%;
 	position: absolute;
@@ -141,11 +141,16 @@ ul {
 /* Velkommen sektion */
 
 .velkommen__img__first{
+	background: url("../img/velkommen-left.png");
+	background-size: cover;
 	height:300px;
 	width:100%;
 }
 
 .velkommen__img__second{
+	background: url("../img/velkommen-right.png");
+	background-size: cover;
+	background-position: 0 -30px;
 	height:300px;
 	width:100%;
 }
@@ -261,6 +266,7 @@ footer .footer__nav a:hover{
 	}
 
 	.velkommen__img__second{
+		background-position: -60px 0;
 		grid-column: 9 / 13;
 		grid-row: 1;
 		align-self: center;
@@ -286,11 +292,11 @@ footer .footer__nav a:hover{
 	}
 
 	.main-text{
-		font-size: calc(1.275rem + .3vw);
+		font-size: calc(1.075rem + .3vw);
 	}
 
 	.sub-text{
-		font-size: 1.25rem
+		font-size: 1.05rem
 	}
 
 	.menu__logo__tagline{

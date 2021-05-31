@@ -57,7 +57,7 @@
     <div class="velkommen__img__second bg-danger mb-5 mb-md-0"></div>
 </section>
 
-<section class="menu container-fluid h-auto p-3">
+<section class="menu container-fluid py-5">
     <div class="menu__container mx-auto bg-dark-gray opacity-90 text-white m-2 py-5 px-3 px-md-5 h-100">
         <img class="menu__logo__tagline align-self-center mb-5" src="img/logo-tagline.svg" alt="logo-tagline">
             <header class="d-flex justify-content-center mb-4">

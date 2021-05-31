@@ -139,7 +139,7 @@
     <div class="history__box__wrapper container-lg bg-white p-5">
         <header class="d-flex justify-content-center mb-4">
             <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
-            <h1 class="headline px-2 my-2 text-center">EN UNIK OPLEVELSE</h1>
+            <h1 class="headline px-2 my-2 text-center">FRA VANDTÅRN TIL CAFÉ</h1>
             <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
         </header>
         <p class="">I hjertet af Nykøbing Falster står et stykke lokalhistorie - det store gule vandtårn.

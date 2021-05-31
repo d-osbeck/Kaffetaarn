@@ -198,7 +198,7 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Fragilite</p>
+                        <p class="main-text font-weight-500">Fragilité</p>
                         <p class="sub-text fst-italic text-off-gray">Glutenfri</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
@@ -287,7 +287,7 @@
                     </div>
                 </div>
 
-                <div class="line bg-primary my-4 text-end"></div>
+                <div class="line bg-primary my-4 text-end "></div>
 
             </div>
         </div>

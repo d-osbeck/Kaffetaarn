@@ -94,7 +94,7 @@
                 <div class="bestilling__row">
                     <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
                         <label for="bemærkning" class="form-label">Bemærkning</label>
-                        <textarea id="bemærkning" rows="3" class="form-control w-75"></textarea>
+                        <textarea id="bemærkning" rows="4" class="form-control w-75 mb-3"></textarea>
                     </div>
                 </div>
 

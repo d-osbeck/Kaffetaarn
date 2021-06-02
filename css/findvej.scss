@@ -1,10 +1,14 @@
+$primary-color: #f8b551;
+$black-bg: #222222;
+$background: #FFF9F3;
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background: #FFF9F3;
+  background: $background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,7 +54,7 @@ ul {
 
 .findvej {
 
-  background: #1a1e21 url("../img/kaffetaarn-entre-bg.png");
+  background: $black-bg url("../img/kaffetaarn-entre-bg.png");
   background-size:cover;
 
 }
@@ -80,14 +84,14 @@ ul {
 .link__text{
 
   text-decoration:underline;
-  color: #FFF9F3;
+  color: $background;
   font-family: 'Jost', serif;
 
 }
 
 .link__text:hover{
 
-  color: #FBE176;
+  color: #f8b551;
 
 }
 

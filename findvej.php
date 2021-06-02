@@ -82,7 +82,7 @@
 
 <body>
 
-<?php include 'nav.php';?>
+<?php include 'includes/nav.php';?>
 
 <main class="findvej px-3 py-5 d-flex">
 
@@ -129,6 +129,10 @@
                 Telefon:
                 <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>
             </p>
+            <div class="contact__social__wrapper social__icons text-center py-4">
+                <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-facebook-f fa-stack-1x text-white"></i></a>
+                <a href="https://www.instagram.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-instagram fa-stack-1x text-white"></i></a>
+            </div>
         </div>
 
         </section>
@@ -136,7 +140,7 @@
         <section class="d-md-flex flex-md-row my-3 mt-lg-3 mb-lg-0">
 
         <div class="col-md-7">
-            <img class="image" src="img/texture-bg.jpg" alt="">
+            <img class="image" src="img/indgang-illustration.png" alt="kaffetaarn-indgang">
         </div>
 
         <div class="time d-flex flex-column col-md-5 align-self-md-center ps-md-3 ps-lg-5">
@@ -163,9 +167,9 @@
 
 </main>
 
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>
 
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 <script src="https://kit.fontawesome.com/d7a71e7a7e.js" crossorigin="anonymous"></script>
 
 </body>

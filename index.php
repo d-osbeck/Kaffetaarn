@@ -22,7 +22,7 @@
 <body class="bg-background">
 
 
-<?php include 'nav.php';?>
+<?php include 'includes/nav.php';?>
 
 <section class="top">
     <header>
@@ -76,14 +76,14 @@
         <div class="menu__item__container container px-0 py-4">
             <div class="menu__left__col">
 
-                <h2 class="text-center font-weight-500 fs-1 mb-3">FROKOST</h2>
+                <h2 class="menu__title__text text-center font-weight-500 fs-1 mb-3">FROKOST</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__item__left__col col-8">
-                        <p class="main-text font-weight-500">Kyllingesandwich</p>
-                        <p class="sub-text fst-italic text-off-gray">Økologisk Dalbakkegaard kylling med bacon og soltørrede tomater</p>
+                        <p class="menu__main__text font-weight-500">Kyllingesandwich</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Økologisk Dalbakkegaard kylling med bacon og soltørrede tomater</p>
                     </div>
                     <div class="menu__item__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -91,11 +91,11 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Pulled-pork sandwich</p>
-                        <p class="sub-text fst-italic text-off-gray">Lollandsgris med syltede rødløg</p>
+                        <p class="menu__main__text font-weight-500">Pulled-pork sandwich</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Lollandsgris med syltede rødløg</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -103,11 +103,11 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Laksesandwich</p>
-                        <p class="sub-text fst-italic text-off-gray">Med æble-peberrodssalat</p>
+                        <p class="menu__main__text font-weight-500">Laksesandwich</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Med æble-peberrodssalat</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -115,11 +115,11 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Tunsalatsandwich</p>
-                        <p class="sub-text fst-italic text-off-gray">Med majs, peberfrugt og kapers</p>
+                        <p class="menu__main__text font-weight-500">Tunsalatsandwich</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Med majs, peberfrugt og kapers</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -127,11 +127,11 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Hummussandwich</p>
-                        <p class="sub-text fst-italic text-off-gray">Med avocado og soltørrede tomater</p>
+                        <p class="menu__main__text font-weight-500">Hummussandwich</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Med avocado og soltørrede tomater</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -139,11 +139,11 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Skinkesandwich</p>
-                        <p class="sub-text fst-italic text-off-gray">Med landskinke og ost</p>
+                        <p class="menu__main__text font-weight-500">Skinkesandwich</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Med landskinke og ost</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -151,10 +151,10 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Pølsehorn</p>
+                        <p class="menu__main__text font-weight-500">Pølsehorn</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">20 dkk</p>
+                        <p class="menu__main__text font-weight-500">20 dkk</p>
                     </div>
                 </div>
 
@@ -162,47 +162,23 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Pizzasnegl</p>
+                        <p class="menu__main__text font-weight-500">Pizzasnegl</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">20 dkk</p>
+                        <p class="menu__main__text font-weight-500">20 dkk</p>
                     </div>
                 </div>
 
                 <div class="line bg-primary my-4"></div>
 
-                <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">SALATER</h2>
+                <h2 class="menu__title__text text-center font-weight-500 fs-1 mt-5 mb-3">SALATER</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Lollands quinoa</p>
-                        <p class="sub-text fst-italic text-off-gray">Med bønner, kål, gulerod, ristede kikærter og mandler</p>
+                        <p class="menu__main__text font-weight-500">Lollands quinoa</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Med bønner, kål, gulerod, ristede kikærter og mandler</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">65 dkk</p>
-                    </div>
-                </div>
-
-                <div class="line bg-primary my-4"></div>
-
-                <div class="menu__item__wrapper row">
-                    <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Buddha bowl</p>
-                        <p class="sub-text fst-italic text-off-gray">Med quinoa og forskelligt grønt</p>
-                    </div>
-                    <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">75 dkk</p>
-                    </div>
-                </div>
-
-                <div class="line bg-primary my-4"></div>
-
-                <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">KAGER</h2>
-                <div class="menu__item__wrapper row">
-                    <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Lemon merengue pie</p>
-                    </div>
-                    <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">20 dkk</p>
+                        <p class="menu__main__text font-weight-500">65 dkk</p>
                     </div>
                 </div>
 
@@ -210,10 +186,34 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Amerikanske chokolade cookies</p>
+                        <p class="menu__main__text font-weight-500">Buddha bowl</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Med quinoa og forskelligt grønt</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">20 dkk</p>
+                        <p class="menu__main__text font-weight-500">75 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
+                <h2 class="menu__title__text text-center font-weight-500 fs-1 mt-5 mb-3">KAGER</h2>
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="menu__main__text font-weight-500">Lemon merengue pie</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="menu__main__text font-weight-500">20 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="menu__main__text font-weight-500">Amerikanske chokolade cookies</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="menu__main__text font-weight-500">20 dkk</p>
                     </div>
                 </div>
 
@@ -223,13 +223,13 @@
 
             <div class="menu__right__col p-0">
 
-                <h2 class="text-center font-weight-500 fs-1 mb-3 mt-5 mt-md-0">GLUTENFRI KAGER</h2>
+                <h2 class="menu__title__text text-center font-weight-500 fs-1 mb-3 mt-5 mt-md-0">GLUTENFRI KAGER</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Sara Bernard</p>
+                        <p class="menu__main__text font-weight-500">Sara Bernard</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">15 dkk</p>
+                        <p class="menu__main__text font-weight-500">15 dkk</p>
                     </div>
                 </div>
 
@@ -237,10 +237,10 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Florentiner</p>
+                        <p class="menu__main__text font-weight-500">Florentiner</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">20 dkk</p>
+                        <p class="menu__main__text font-weight-500">20 dkk</p>
                     </div>
                 </div>
 
@@ -248,10 +248,10 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Fragilité</p>
+                        <p class="menu__main__text font-weight-500">Fragilité</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">15 dkk</p>
+                        <p class="menu__main__text font-weight-500">15 dkk</p>
                     </div>
                 </div>
 
@@ -259,10 +259,10 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Hindbærdrøm</p>
+                        <p class="menu__main__text font-weight-500">Hindbærdrøm</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">30 dkk</p>
+                        <p class="menu__main__text font-weight-500">30 dkk</p>
                     </div>
                 </div>
 
@@ -270,34 +270,23 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Citron fromage</p>
+                        <p class="menu__main__text font-weight-500">Citron fromage</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">30 dkk</p>
+                        <p class="menu__main__text font-weight-500">30 dkk</p>
                     </div>
                 </div>
 
                 <div class="line bg-primary my-4"></div>
 
-                <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">DRIKKE</h2>
+                <h2 class="menu__title__text text-center font-weight-500 fs-1 mt-5 mb-3">DRIKKE</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Kaffe</p>
-                        <p class="sub-text fst-italic text-off-gray">Diverse økologiske kaffe</p>
+                        <p class="menu__main__text font-weight-500">Kaffe</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Diverse økologiske kaffe</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">35 dkk</p>
-                    </div>
-                </div>
-
-                <div class="line bg-primary my-4"></div>
-
-                <div class="menu__item__wrapper row">
-                    <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">The</p>
-                    </div>
-                    <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">45 dkk</p>
+                        <p class="menu__main__text font-weight-500">35 dkk</p>
                     </div>
                 </div>
 
@@ -305,10 +294,10 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Varm cacao</p>
+                        <p class="menu__main__text font-weight-500">The</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">45 dkk</p>
+                        <p class="menu__main__text font-weight-500">45 dkk</p>
                     </div>
                 </div>
 
@@ -316,10 +305,10 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Sodavand</p>
+                        <p class="menu__main__text font-weight-500">Varm cacao</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">25 dkk</p>
+                        <p class="menu__main__text font-weight-500">45 dkk</p>
                     </div>
                 </div>
 
@@ -327,10 +316,21 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="main-text font-weight-500">Vand</p>
+                        <p class="menu__main__text font-weight-500">Sodavand</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">20 dkk</p>
+                        <p class="menu__main__text font-weight-500">25 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="menu__main__text font-weight-500">Vand</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="menu__main__text font-weight-500">20 dkk</p>
                     </div>
                 </div>
 
@@ -338,19 +338,24 @@
 
                 <div class="menu__item__wrapper row py-5 px-2 px-xl-5 my-5 mx-1 border border-3 border-primary">
                     <div class="menu__left__col col-7">
-                        <p class="main-text font-weight-500">Afternoon Tea</p>
-                        <p class="sub-text fst-italic text-off-gray">10 delikatesser med fri kaffe/the</p>
+                        <p class="menu__main__text font-weight-500">Afternoon Tea</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">10 delikatesser med fri kaffe/the</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
-                        <p class="main-text font-weight-500">180 dkk</p>
+                        <p class="menu__main__text font-weight-500">180 dkk</p>
                     </div>
                 </div>
 
-                <p class="text-center fs-4 mt-5">Kontakt os for information om indhold af allergene ingredienser i vores retter.</p>
+                <p class="text-center fs-4 mt-5">Med jævne mellemrum kommer der nye ting på menuen, følg os på de sociale medier for at vide mere.
+                    <br><br>Kontakt os for information om indhold af allergene ingredienser i vores retter.</p>
+
+                <div class="menu__social__wrapper social__icons text-center pt-4">
+                    <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-facebook-f fa-stack-1x text-white"></i></a>
+                    <a href="https://www.instagram.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-instagram fa-stack-1x text-white"></i></a>
+                </div>
             </div>
         </div>
     </div>
-
 </section>
 
 <section class="anbefalinger container py-5 px-0">
@@ -386,11 +391,11 @@
     </div>
 </section>
 
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>
 
 <script src="https://kit.fontawesome.com/d7a71e7a7e.js" crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

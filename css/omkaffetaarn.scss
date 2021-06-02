@@ -1,10 +1,14 @@
+$primary-color: #f8b551;
+$black-bg: #222222;
+$background: #FFF9F3;
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background: #FFF9F3;
+  background: $background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,14 +54,14 @@ ul {
 
 .omkaffetaarn{
 
-  background: #1a1e21 url("../img/Baggrund (2).png");
+  background: $black-bg url("../img/omkaffetaarn-bg.png");
   background-size:cover;
 
 }
 
 .omkaffetaarn__card{
 
-  background-color: rgba(34,34,34,0.9)
+  background-color: rgba(34,34,34,0.9);
 
 }
 
@@ -106,7 +110,7 @@ ul {
 }
 
 .headline{
-  color:black;
+  color: $black-bg;
   display:inline-block;
   position:relative;
 }
@@ -115,7 +119,7 @@ ul {
   content: '';
   height: 2px;
   width: 70%;
-  background: #FBE176;
+  background: $primary-color;
   position: absolute;
   left: calc(25% - 10%);
   bottom: -12px;

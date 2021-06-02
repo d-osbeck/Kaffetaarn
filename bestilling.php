@@ -24,7 +24,7 @@
 
 <body>
 
-<?php include 'nav.php';?>
+<?php include 'includes/nav.php';?>
 
 <main class="bestilling container-fluid bg-danger py-5">
     <div class="bestilling__card bg-dark-gray opacity-90 py-5 px-3 container rounded-2 text-white p-lg-5 h-100">
@@ -55,7 +55,7 @@
 
             <p>Vores afternoon Tea består af 10 lækre delikatesser inkl. fri kaffe/te. I kan blive siddende lige så længe I har lyst, i vores hyggelige omgivelser. <br><br>
                 Pris pr. person 180 kr (min. 2 personer) <br><br>
-                Afternoon Tea skal bookes mindst 3 dage før her på siden, eller ring på tlf.: 93946454
+                Afternoon Tea skal bookes mindst 3 dage før her på siden, eller ring på tlf.: <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>
             </p>
             </div>
             <form class="bestilling__formular my-4">
@@ -117,11 +117,11 @@
     </div>
 </main>
 
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>
 
 <script src="https://kit.fontawesome.com/d7a71e7a7e.js" crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

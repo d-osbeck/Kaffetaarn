@@ -1,10 +1,14 @@
+$primary-color: #f8b551;
+$black-bg: #222222;
+$background: #FFF9F3;
+
 * {
 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
-	background: #FFF9F3;
+	background:$background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,7 +74,7 @@ button:hover{
 }
 
 .top__bg__img {
-	background: url("../img/gul-kop.png");
+	background: url("../img/front-billede-left.png");
 	background-size: cover;
 	height: calc(100vh - 220px);
 	width: 75%;
@@ -81,7 +85,7 @@ button:hover{
 }
 
 .top__bg__texture {
-	background: url("../img/front.png");
+	background: url("../img/front-billede-right.png");
 	background-size:cover;
 	position: absolute;
 	width: 60%;
@@ -92,7 +96,7 @@ button:hover{
 
 .nav nav ul {
 	height: 100vh;
-	background: #222222;
+	background: $black-bg;
 	top: 0;
 	right: 0;
 	position: fixed;
@@ -108,7 +112,7 @@ button:hover{
 }
 
 .nav nav ul li a:hover{
-	text-decoration: 2px underline wavy #f8b551;
+	text-decoration: 2px underline wavy $primary-color;
 }
 
 .nav__menu__exit__btn img {
@@ -183,16 +187,16 @@ button:hover{
 }
 
 .headline{
-	color:black;
-	display:inline-block;
-	position:relative;
+	color: $black-bg;
+	display: inline-block;
+	position: relative;
 }
 
 .headline::after{
 	content: '';
 	height: 2px;
 	width: 70%;
-	background: #f8b551;
+	background: $primary-color;
 	position: absolute;
 	left: calc(25% - 10%);
 	bottom: -12px;
@@ -201,25 +205,19 @@ button:hover{
 /* Menu */
 
 .menu{
-	background: url("../img/salat.png");
+	background: url("../img/menu-bg.png");
 	background-size: cover;
 }
 
-.title__line{
-	height: 2px;
-	background: #1a1e21;
-	width: 50%;
-	margin: auto;
-}
 .line{
 	height: 2px;
 }
 
-.main-text{
+.menu__main__text{
 	font-size: 1.25rem;
 }
 
-.sub-text{
+.menu__sub__text{
 	font-size: 1rem;
 }
 
@@ -240,7 +238,7 @@ button:hover{
 
 /* Footer */
 footer .footer__nav a:hover{
-	text-decoration: 2px underline wavy #f8b551;
+	text-decoration: 2px underline wavy $primary-color;
 }
 
 
@@ -318,11 +316,11 @@ footer .footer__nav a:hover{
 		padding-top: 54px;
 	}
 
-	.main-text{
+	.menu__main__text{
 		font-size: calc(1.075rem + .3vw);
 	}
 
-	.sub-text{
+	.menu__sub__text{
 		font-size: 1.05rem
 	}
 
@@ -343,8 +341,8 @@ footer .footer__nav a:hover{
 		max-width: 500px;
 	}
 
-	.footer__social i:hover{
-		color: #878787 !important;
+	.social__icons i:hover{
+		color: $primary-color !important;
 	}
 }
 
@@ -384,7 +382,7 @@ footer .footer__nav a:hover{
 
 	.nav nav ul li a{
 		font-size: 1rem;
-		color: #000;
+		color: $black-bg;
 	}
 
 	.top__logo__tagline{

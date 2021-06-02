@@ -57,6 +57,16 @@
     display: block;
     width: 100%;
   }
+
+  .link__text{
+    text-decoration:underline;
+    color: $background;
+    font-family: 'Jost', serif;
+  }
+
+  .link__text:hover{
+    color: $primary-color;
+  }
 }
 
 @media only screen and (min-width: 1200px){

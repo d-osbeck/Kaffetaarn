@@ -2,7 +2,7 @@
     <div class="footer__container container">
     <div class="footer__social text-center text-white my-3">
         <h1 class="fw-normal py-3">FØLG OS</h1>
-        <div class="footer__social__wrapper text-center">
+        <div class="footer__social__wrapper social__icons text-center">
             <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="fa-stack fa-lg mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-facebook-f fa-stack-1x text-white"></i></a>
             <a href="https://www.instagram.com/kaffetaarn" target="_blank" class="fa-stack fa-lg mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-instagram fa-stack-1x text-white"></i></a>
         </div>

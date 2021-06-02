@@ -9,8 +9,8 @@
 
         <ul class="py-4 m-0 d-xl-flex align-items-center font-weight-500">
             <li class="nav__menu__exit__btn d-flex justify-content-end px-2 d-xl-none"><img src="img/exit.svg" alt="exit-menu"></li>
-            <li><a href="http://farligzebra.dk/Menukort.pdf" target="_blank" class="d-block d-xl-flex py-3 mx-5 fs-4 text-end mb-0">MENU</a></li>
-            <li><a href="bestilling.php" class="d-block d-xl-flex py-3 mx-5 fs-4 text-end mb-0">BOOK BORD</a></li>
+            <li><a href="index.php#menu" class="d-block d-xl-flex py-3 mx-5 fs-4 text-end mb-0">MENU</a></li>
+            <li><a href="bestilling.php" class="d-block d-xl-flex py-3 mx-5 fs-4 text-end mb-0">BESTIL BORD</a></li>
             <li><a href="omkaffetaarn.php" class="d-block d-xl-flex py-3 mx-5 fs-4 text-end mb-0">OM KAFFETÅR'N</a></li>
             <li><a href="findvej.php" class="d-block d-xl-flex py-3 mx-5 fs-4 text-end mb-0">FIND VEJ</a></li>
         </ul>

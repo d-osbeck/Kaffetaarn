@@ -84,6 +84,8 @@ ul {
 }
 
 .history__img__first{
+  background: url("../img/vandtårn-nyt.png");
+  background-size: cover;
   height:400px;
   width:100%;
   grid-column: 1/2;
@@ -93,6 +95,8 @@ ul {
 }
 
 .history__img__second{
+  background: url("../img/vandtårn-gammelt.JPG");
+  background-size: cover;
   height:400px;
   width:100%;
   grid-column: 2/3;

@@ -24,21 +24,25 @@
 
 <?php include 'nav.php';?>
 
-<section class="top mb-5">
+<section class="top">
     <header>
         <img class="top__logo__tagline align-self-center mb-4" src="img/logo-tagline.svg" alt="logo-tagline">
         <div class="top__btn__wrapper text-center">
-            <a href="http://farligzebra.dk/Menukort.pdf" target="_blank"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href="#menu"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
             <a href="bestilling.php"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
+        </div>
+        <div class="arrow bounce">
+            <a class="fa fa-arrow-down fa-2x text-white my-5" href="#velkommen"></a>
         </div>
     </header>
     <div class="top__bg__container d-xl-flex">
         <div class="top__bg__img"></div>
         <div class="top__bg__texture"></div>
+
     </div>
 </section>
 
-<section class="velkommen container p-0">
+<section class="velkommen container p-0 mt-5" id="velkommen">
     <div class="velkommen__box__wrapper container bg-white p-5 mb-5 mb-md-0">
         <header class="d-flex justify-content-center mb-4">
             <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
@@ -58,12 +62,12 @@
     <div class="velkommen__img__second bg-danger mb-5 mb-md-0"></div>
 </section>
 
-<section class="menu container-fluid py-5">
+<section class="menu container-fluid py-5" id="menu">
     <div class="menu__container mx-auto bg-dark-gray opacity-90 text-white m-2 py-5 px-3 px-md-5 h-100">
         <img class="menu__logo__tagline align-self-center mb-5" src="img/logo-tagline.svg" alt="logo-tagline">
             <header class="d-flex justify-content-center mb-4">
                 <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-                <h1 class="text-white text-center pt-4 mx-4">MENU</h1>
+                <h1 class="text-white text-center pt-4 mx-4 display-4">MENU</h1>
                 <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
@@ -145,6 +149,53 @@
 
                 <div class="line bg-primary my-4"></div>
 
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="main-text font-weight-500">Pølsehorn</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="main-text font-weight-500">20 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="main-text font-weight-500">Pizzasnegl</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="main-text font-weight-500">20 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
+                <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">SALATER</h2>
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="main-text font-weight-500">Lollands quinoa</p>
+                        <p class="sub-text fst-italic text-off-gray">Med bønner, kål, gulerod, ristede kikærter og mandler</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="main-text font-weight-500">65 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
+                <div class="menu__item__wrapper row">
+                    <div class="menu__left__col col-8">
+                        <p class="main-text font-weight-500">Buddha bowl</p>
+                        <p class="sub-text fst-italic text-off-gray">Med quinoa og forskelligt grønt</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="main-text font-weight-500">75 dkk</p>
+                    </div>
+                </div>
+
+                <div class="line bg-primary my-4"></div>
+
                 <h2 class="text-center font-weight-500 fs-1 mt-5 mb-3">KAGER</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
@@ -166,12 +217,16 @@
                     </div>
                 </div>
 
-                <div class="line bg-primary my-4"></div>
+                <div class="line bg-primary my-4 "></div>
+            </div>
 
+
+            <div class="menu__right__col p-0">
+
+                <h2 class="text-center font-weight-500 fs-1 mb-3 mt-5 mt-md-0">GLUTENFRI KAGER</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="main-text font-weight-500">Sara Bernard</p>
-                        <p class="sub-text fst-italic text-off-gray">Glutenfri</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="main-text font-weight-500">15 dkk</p>
@@ -180,15 +235,9 @@
 
                 <div class="line bg-primary my-4"></div>
 
-            </div>
-
-
-            <div class="menu__right__col">
-
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="main-text font-weight-500">Florentiner</p>
-                        <p class="sub-text fst-italic text-off-gray">Glutenfri</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="main-text font-weight-500">20 dkk</p>
@@ -200,7 +249,6 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="main-text font-weight-500">Fragilité</p>
-                        <p class="sub-text fst-italic text-off-gray">Glutenfri</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="main-text font-weight-500">15 dkk</p>
@@ -212,7 +260,6 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="main-text font-weight-500">Hindbærdrøm</p>
-                        <p class="sub-text fst-italic text-off-gray">Glutenfri</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="main-text font-weight-500">30 dkk</p>
@@ -224,7 +271,6 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="main-text font-weight-500">Citron fromage</p>
-                        <p class="sub-text fst-italic text-off-gray">Glutenfri</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="main-text font-weight-500">30 dkk</p>
@@ -237,7 +283,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="main-text font-weight-500">Kaffe</p>
-                        <p class="sub-text fst-italic text-off-gray">Diverse kaffe</p>
+                        <p class="sub-text fst-italic text-off-gray">Diverse økologiske kaffe</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="main-text font-weight-500">35 dkk</p>
@@ -290,19 +336,25 @@
 
                 <div class="line bg-primary my-4 text-end "></div>
 
-            </div>
-        </div>
+                <div class="menu__item__wrapper row py-5 px-2 px-xl-5 my-5 mx-1 border border-3 border-primary">
+                    <div class="menu__left__col col-7">
+                        <p class="main-text font-weight-500">Afternoon Tea</p>
+                        <p class="sub-text fst-italic text-off-gray">10 delikatesser med fri kaffe/the</p>
+                    </div>
+                    <div class="menu__right__col col text-end pt-md-0">
+                        <p class="main-text font-weight-500">180 dkk</p>
+                    </div>
+                </div>
 
-        <p class="text-center fs-4 my-4">Kontakt os for information om indhold af allergene ingredienser i vores retter.</p>
-        <div class="menu__link__wrapper w-100 d-flex justify-content-center">
-        <a href="http://farligzebra.dk/Menukort.pdf" target="_blank" class="text-decoration-underline mt-3 text-white fw-normal h1">SE MERE</a>
+                <p class="text-center fs-4 mt-5">Kontakt os for information om indhold af allergene ingredienser i vores retter.</p>
+            </div>
         </div>
     </div>
 
 </section>
 
 <section class="anbefalinger container py-5 px-0">
-    <header class="d-flex justify-content-center">
+    <header class="d-flex justify-content-center mx-3">
         <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
         <h1 class="headline px-4 my-2 text-center">HVAD VORES KUNDER SIGER OM OS!</h1>
         <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">

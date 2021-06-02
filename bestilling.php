@@ -31,10 +31,22 @@
         <section class="bestilling__content">
 
             <div class="bestilling__img">
-                <img src="img/kager.png" alt="">
+                <img src="img/kager.png" alt="kager">
             </div>
 
             <div class="bestilling__header__wrapper d-md-flex justify-content-center flex-column p-md-3 mx-lg-3 mx-xxl-0 p-xxl-5">
+                <header class="bestilling__header d-flex justify-content-center mt-4 mb-4">
+                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
+                    <h1 class="headline text-white px-2 my-2">BESTIL BORD</h1>
+                    <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
+                </header>
+
+                <p> Her på siden kan du bestille bord eller booke afternoon tea til dig og dine kære.<br><br>
+                    Se mere info om Afternoon Tea nedenfor.
+                </p>
+            </div>
+
+            <div class="bestilling__header__tea__wrapper d-md-flex justify-content-center flex-column p-md-3 mx-lg-3 mx-xxl-0 p-xxl-5">
             <header class="bestilling__header d-flex justify-content-center mt-4 mb-4">
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon" style="width:40px;">
                 <h1 class="headline text-white px-2 my-2">AFTERNOON TEA</h1>

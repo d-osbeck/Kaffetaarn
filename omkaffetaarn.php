@@ -72,6 +72,8 @@
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/omkaffetaarn.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/findvej.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/alv5vit.css">
@@ -111,12 +113,30 @@
                     <br><br>
                     Caféen der, med sin runde form, favner gæsterne og med mormorduge, engelske tekopper og de romantiske sofaer og andre genbrugsfund, danner rammen om mange hyggelige snakke og velsmagende retter.
                 </p>
+
+                <div class="time d-flex flex-column col-md-5 align-self-md-center my-4">
+                    <header class="d-flex justify-content-center mb-5">
+                        <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
+                        <h1 class="header__text px-2 my-2">ÅBNINGSTIDER</h1>
+                        <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
+                    </header>
+
+                    <p class="text-center mb-4">
+                        Mandag-Torsdag: 11.00-14.00
+                        <br>
+                        Fredag: 11.00-15.30
+                        <br>
+                        Lørdag: 10.00-15.00
+                        <br>
+                        Søndag: LUKKET
+                    </p>
+                </div>
             </div>
 
         </section>
 
         <div class="text-center mb-2">
-            <a href="http://farligzebra.dk/Menukort.pdf" target="_blank"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href="index.php#menu"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
             <a href="findvej.php"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">FIND VEJ</button></a>
         </div>
 

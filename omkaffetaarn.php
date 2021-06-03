@@ -117,7 +117,7 @@
                 <div class="time d-flex flex-column col-md-5 align-self-md-center my-4">
                     <header class="d-flex justify-content-center mb-5">
                         <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-                        <h1 class="header__text px-2 my-2">ÅBNINGSTIDER</h1>
+                        <h1 class="headline text-white px-2 my-2">ÅBNINGSTIDER</h1>
                         <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
                     </header>
 
@@ -167,17 +167,19 @@
             <h1 class="headline px-2 my-2 text-center">FRA VANDTÅRN TIL CAFÉ</h1>
             <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
         </header>
-        <p class="">I hjertet af Nykøbing Falster står et stykke lokalhistorie - det store gule vandtårn.
-            Med sine 43 meter kan det ses fra hele byen og tilmed fra Lollandssiden.
+        <p class="">”Vandtårn og kirketårn stod som søjler i ildhavet, og alle indre gader var truet...”
+            Sådan skriver Folketidende om “Pinsebranden” i Nykøbing i 1930
+
             <br><br>
-            Det er tegnet af Einar Ambt og Alf Jørgensen, og det blev opført i 1908 og fungerede om byens vandforsyning indtil 1976.
-            <br>
-            Da det blev opført var det Danmarks første jernbetonbyggeri.
-            Bygningen betegnes som et vartegn for Nykøbing Falster.
+            Heldigvis overlevede det 43 meter høje, ikoniske vandtårn i centrum af Nykøbing og i dag ligger den hyggelige café, KAFFETÅR’N i bunden.
+
             <br><br>
-            I 1993 blev vandtårnet kraftigt renoveret, hvilket indbefattede reparationer, nyt puds på ydersiden og der blev etableret syv etager ind i tårnet.
-            Efterfølgende er man begyndt at benytte tårnet udstillinger om byens historie og galleri.
-            Fire etager er afsat til udstillinger og tårnets stueetage huser café KAFFETÅR'N.
+            Det er tegnet af Einar Ambt og Alf Jørgensen og blev opført i 1908 som Danmarks første armerede betonbyggeri og fungerede som byens vandforsyning indtil 1976.
+
+            <br><br>
+
+            KAFFETÅR’N har nu mulighed for at lukke op for besøgende, der ønsker at komme op og nyde udsigten for 20,- pr. person. <br>
+            Når vejret tillader det, kan man se hele vejen til Danmarks sydligste punkt - Gedser
     </div>
 </section>
 

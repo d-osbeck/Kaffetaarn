@@ -90,7 +90,7 @@
 
         <header class="d-flex justify-content-center mb-5">
             <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-            <h1 class="header__text px-2 my-2">FIND VEJ</h1>
+            <h1 class="headline text-white px-2 my-2">FIND VEJ</h1>
             <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
         </header>
 
@@ -105,7 +105,7 @@
         <div class="contact d-flex flex-column col-md-5 align-self-md-center ps-md-3 ps-lg-5">
             <header class="d-flex justify-content-center mt-4 mb-4">
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-                <h1 class="header__text px-2 my-2 ">ADRESSE</h1>
+                <h1 class="headline text-white px-2 my-2 ">ADRESSE</h1>
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
@@ -117,7 +117,7 @@
 
             <header class="d-flex justify-content-center my-2 mb-4">
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-                <h1 class="header__text px-2 my-2 ">KONTAKT</h1>
+                <h1 class="headline text-white px-2 my-2 ">KONTAKT</h1>
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 
@@ -146,7 +146,7 @@
         <div class="time d-flex flex-column col-md-5 align-self-md-center ps-md-3 ps-lg-5">
             <header class="d-flex justify-content-center mt-4 mb-4">
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-                <h1 class="header__text px-2 my-2">ÅBNINGSTIDER</h1>
+                <h1 class="headline text-white px-2 my-2">ÅBNINGSTIDER</h1>
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
             </header>
 

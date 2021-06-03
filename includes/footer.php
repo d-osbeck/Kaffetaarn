@@ -23,8 +23,8 @@
 
     <div class="footer__adresse text-center text-white my-3 col">
         <h1 class="fw-normal py-3">KONTAKT</h1>
-        <p class="text-off-gray">Email: kaffetaarn@gmail.com</p>
-        <p class="text-off-gray">Telefon: +45 93 94 64 54</p>
+        <a href="mailto: kaffetaarn@gmail.com" class="link__text text-off-gray">kaffetaarn@gmail.com</a><br>
+        <a class="link__text text-off-gray" href="tel:+4593946465">+45 93 94 64 65</a>
     </div>
 
     </div>

@@ -97,7 +97,6 @@
     <div class="top__bg__container d-xl-flex">
         <div class="top__bg__img"></div>
         <div class="top__bg__texture"></div>
-
     </div>
 </section>
 
@@ -108,7 +107,7 @@
             <h1 class="headline px-2 my-2 text-center">EN UNIK OPLEVELSE</h1>
             <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
         </header>
-        <p class="">I hjertet af Nykøbing F. tårner det gule vandtårn sig op over byens tage.
+        <p class="">I hjertet af Nykøbing F. ses det smukke gule vandtårn over byens tage.
             <br><br>
             Sæt dig tilrette i de hyggelige sofaer, nyd en friskbrygget kop kaffe, en lækker kage eller en sandwich, fortrinsvis lavet med lokale og økologiske råvarer.
             <br><br>
@@ -163,7 +162,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="menu__main__text font-weight-500">Laksesandwich</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Med æble-peberrodssalat</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Laks og æble-peberrodssalat</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">65 dkk</p>
@@ -175,7 +174,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="menu__main__text font-weight-500">Tunsalatsandwich</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Med majs, peberfrugt og kapers</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Tun, majs, peberfrugt og kapers</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">65 dkk</p>
@@ -187,7 +186,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="menu__main__text font-weight-500">Hummussandwich</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Med avocado og soltørrede tomater</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Avocado og soltørrede tomater</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">65 dkk</p>
@@ -199,7 +198,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="menu__main__text font-weight-500">Skinkesandwich</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Med landskinke og ost</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Landskinke og ost</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">65 dkk</p>
@@ -234,7 +233,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="menu__main__text font-weight-500">Lollands quinoa</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Med bønner, kål, gulerod, ristede kikærter og mandler</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Bønner, kål, gulerod, ristede kikærter og mandler</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">65 dkk</p>
@@ -246,7 +245,7 @@
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
                         <p class="menu__main__text font-weight-500">Buddha bowl</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Med quinoa og forskelligt grønt</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Quinoa og forskelligt grønt</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">75 dkk</p>
@@ -423,7 +422,7 @@
 <section class="anbefalinger container py-5 px-0">
     <header class="d-flex justify-content-center mx-3">
         <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-left.svg" alt="kaffekop ikon">
-        <h1 class="headline px-4 my-2 text-center">HVAD VORES KUNDER SIGER OM OS!</h1>
+        <h1 class="headline px-4 my-2 text-center">HVAD SIGER KUNDERNE OM OS</h1>
         <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon">
     </header>
 
@@ -452,7 +451,7 @@
         </div>
     </div>
     <div class="anbefalinger__link__wrapper d-flex justify-content-center">
-    <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="text-black h2 text-decoration-underline">FLERE ANBEFALINGER</a>
+    <a href="https://www.facebook.com/kaffetaarn/reviews/?ref=page_internal" target="_blank" class="text-black h2 text-decoration-underline">FLERE ANBEFALINGER</a>
     </div>
 </section>
 

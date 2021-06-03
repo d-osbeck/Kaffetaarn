@@ -250,6 +250,15 @@ footer .footer__nav a:hover{
 	text-decoration: 2px underline wavy $primary-color;
 }
 
+.link__text{
+	text-decoration:underline;
+	font-family: 'Jost', serif;
+}
+
+.link__text:hover{
+	color: $primary-color;
+}
+
 
 @media only screen and (min-width: 768px){
 

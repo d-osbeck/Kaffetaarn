@@ -10,6 +10,65 @@
     <meta name="copyright" content="© Copyright 2021. All Rights Reserved">
     <meta name="description" content="Café og spisested midt i Nykøbing F. Caféen ligger i det gamle vandtårn i Nykøbing F, og er en hyggelige lille cafe og spisested, med massere af charme.">
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "image": [
+                "https://example.com/photos/1x1/photo.jpg",
+                "https://example.com/photos/4x3/photo.jpg",
+                "https://example.com/photos/16x9/photo.jpg"
+            ],
+            "@id": "http://www.farligzebra.dk/kaffetaarn",
+            "name": "KAFFETÅR'N",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hollands Gaard 30",
+                "addressLocality": "Nykøbing Falster",
+                "postalCode": "4800"
+            },
+            "url": "http://www.example.com/findvej",
+            "telephone": "+4593946454",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Mandag",
+                        "Tirsdag",
+                        "Onsdag",
+                        "Torsdag"
+                    ],
+                    "opens": "11:00",
+                    "closes": "14:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Fredag"
+                    ],
+                    "opens": "11:00",
+                    "closes": "15:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Lørdag"
+                    ],
+                    "opens": "10:00",
+                    "closes": "15:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Søndag"
+                    ],
+                    "opens": "16:00",
+                    "closes": "22:00"
+                }
+            ]
+        }
+    </script>
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,8 +87,8 @@
     <header>
         <img class="top__logo__tagline align-self-center mb-4" src="img/logo-tagline.svg" alt="logo-tagline">
         <div class="top__btn__wrapper text-center">
-            <a href="#menu"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
-            <a href="bestilling.php"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
+            <a href="#menu"><button class="bg-primary text-black fs-4 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href="bestilling.php"><button class="bg-primary text-black fs-4 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
         </div>
         <div class="arrow bounce">
             <a class="fa fa-arrow-down fa-2x text-white my-5" href="#velkommen"></a>
@@ -282,8 +341,8 @@
                 <h2 class="menu__title__text text-center font-weight-500 fs-1 mt-5 mb-3">DRIKKE</h2>
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="menu__main__text font-weight-500">Kaffe</p>
-                        <p class="menu__sub__text fst-italic text-off-gray">Diverse økologiske kaffe</p>
+                        <p class="menu__main__text font-weight-500">Økologisk kaffe</p>
+                        <p class="menu__sub__text fst-italic text-off-gray">Chai Latte, Espresso, Caffe Latte, Latte Macchiato Cappucino, Café Au Lait, Irish Coffee, Is Kaffe</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">35 dkk</p>
@@ -316,7 +375,7 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="menu__main__text font-weight-500">Sodavand</p>
+                        <p class="menu__main__text font-weight-500">Sodavand 0,5 L.</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">25 dkk</p>
@@ -327,7 +386,7 @@
 
                 <div class="menu__item__wrapper row">
                     <div class="menu__left__col col-8">
-                        <p class="menu__main__text font-weight-500">Vand</p>
+                        <p class="menu__main__text font-weight-500">Vand 0,5 L.</p>
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">20 dkk</p>
@@ -343,6 +402,9 @@
                     </div>
                     <div class="menu__right__col col text-end pt-md-0">
                         <p class="menu__main__text font-weight-500">180 dkk</p>
+                    </div>
+                    <div class="menu__link__wrapper d-flex justify-content-center">
+                        <a href="bestilling.php" class="text-white h2 text-decoration-underline pt-4">SE MERE & BESTIL</a>
                     </div>
                 </div>
 
@@ -388,6 +450,9 @@
             <div class="line bg-primary my-4"></div>
             <cite>- Tessa anbefaler</cite>
         </div>
+    </div>
+    <div class="anbefalinger__link__wrapper d-flex justify-content-center">
+    <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="text-black h2 text-decoration-underline">FLERE ANBEFALINGER</a>
     </div>
 </section>
 

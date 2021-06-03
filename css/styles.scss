@@ -76,6 +76,7 @@ button:hover{
 .top__bg__img {
 	background: url("../img/front-billede-left.png");
 	background-size: cover;
+	background-position-x: -100px;
 	height: calc(100vh - 220px);
 	width: 75%;
 	position: absolute;
@@ -230,10 +231,18 @@ button:hover{
 	width:40px;
 }
 
+.menu__link__wrapper a:hover{
+	color: $primary-color !important;
+}
+
 /* Anbefalinger */
 
 .anbefalinger img{
 	width:40px;
+}
+
+.anbefalinger__link__wrapper a:hover{
+	color: $primary-color !important;
 }
 
 /* Footer */
@@ -350,6 +359,7 @@ footer .footer__nav a:hover{
 
 	/* Nav & hero */
 	.top__bg__img{
+		background-position-x: unset;
 		width:45%;
 		right:35%;
 		height: calc(100vh - 240px);

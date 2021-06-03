@@ -63,7 +63,7 @@
                 <div class="bestilling__row">
                     <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
                     <label for="personer" class="form-label">Antal personer</label>
-                    <select class="form-select mb-4">
+                    <select id="personer" class="form-select mb-4">
                         <option selected value="2">2 personer</option>
                         <option value="3">3 personer</option>
                         <option value="4">4 personer</option>
@@ -79,13 +79,13 @@
                 </div>
 
                 <div class="bestilling__row">
-                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
+                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5 col">
                     <label for="tid" class="form-label">Tidspunkt</label>
                     <input type="text" id="tid" class="form-control timepicker-input mb-4" placeholder="12.00">
                     </div>
 
 
-                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
+                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5 col">
                     <label for="navn" class="form-label">Navn</label>
                     <input type="text" id="navn" class="form-control mb-4">
                     </div>
@@ -93,19 +93,19 @@
                 </div>
 
                 <div class="bestilling__row">
-                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
+                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5 col">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" id="email" class="form-control mb-4">
                     </div>
 
-                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
+                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5 col">
                     <label for="telefon" class="form-label">Telefon</label>
                     <input type="tel" id="telefon" class="form-control">
                     </div>
                 </div>
 
                 <div class="bestilling__row">
-                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">
+                    <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5 col">
                         <label for="bemærkning" class="form-label">Bemærkning</label>
                         <textarea id="bemærkning" rows="4" class="form-control w-75 mb-3"></textarea>
                     </div>

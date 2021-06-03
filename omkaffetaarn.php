@@ -145,11 +145,15 @@
             <a href="findvej.php"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">FIND VEJ</button></a>
         </div>
 
+        <div class="arrow bounce ps-lg-3">
+            <a class="fa fa-arrow-down fa-2x text-white mt-5" href="#history"></a>
+        </div>
+
     </div>
 
 </main>
 
-<section class="history container py-5">
+<section class="history container py-5" id="history">
 
 
     <div class="history__img__first bg-dark mb-4 mb-lg-0 align-self-center">

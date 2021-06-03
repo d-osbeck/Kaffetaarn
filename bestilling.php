@@ -41,8 +41,8 @@
                     <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
                 </header>
 
-                <p> Her på siden kan du bestille bord eller booke afternoon tea til dig og dine kære.<br><br>
-                    Se mere info om Afternoon Tea nedenfor.
+                <p>Bestil bord hos KAFFETÅR'N online eller ring på tlf.: <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>.
+                    <br><br> Her kan du også booke Afternoon Tea til dig og dine kære.<br> Vi glæder os til at byde jer velkommen.
                 </p>
             </div>
 
@@ -53,7 +53,7 @@
                 <img class="header__icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
             </header>
 
-            <p>Vores afternoon Tea består af 10 lækre delikatesser inkl. fri kaffe/te. I kan blive siddende lige så længe I har lyst, i vores hyggelige omgivelser. <br><br>
+            <p class="pb-5 mb-5">Vores afternoon Tea består af 10 lækre delikatesser inkl. fri kaffe/te. I kan blive siddende lige så længe I har lyst, i vores hyggelige omgivelser. <br><br>
                 Pris pr. person 180 kr (min. 2 personer) <br><br>
                 Afternoon Tea skal bookes mindst 3 dage før her på siden, eller ring på tlf.: <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>
             </p>

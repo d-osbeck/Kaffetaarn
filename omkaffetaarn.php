@@ -149,7 +149,7 @@
 
 </main>
 
-<section class="history container py-5 p-0">
+<section class="history container py-5">
 
 
     <div class="history__img__first bg-dark mb-4 mb-lg-0 align-self-center">

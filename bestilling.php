@@ -58,7 +58,7 @@
                 Afternoon Tea skal bookes mindst 3 dage før her på siden, eller ring på tlf.: <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>
             </p>
             </div>
-            <form class="bestilling__formular my-4">
+            <form class="bestilling__formular my-5">
 
                 <div class="bestilling__row">
                     <div class="bestilling__form__item mb-4 mb-md-3 px-md-2 mx-lg-3 mx-xxl-0 px-xxl-5">

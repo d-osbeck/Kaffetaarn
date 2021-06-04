@@ -77,7 +77,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/alv5vit.css">
-    <link rel="preload" as="font">
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Jost&display=swap">
+    <link rel="preload" as="style" href="css/styles.css">
+    <link rel="preload" as="style" href="css/bootstrap.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>

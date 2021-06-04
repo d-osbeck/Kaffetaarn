@@ -110,8 +110,9 @@
                         <textarea id="bemærkning" rows="4" class="form-control w-75 mb-3"></textarea>
                     </div>
                 </div>
-
-                <a href=""><button class="bg-primary text-black font-weight-500 fs-5 rounded py-2 px-5 border-0 py-xl-3 mx-md-5">BESTIL</button></a>
+                <div class="bestilling__btn__wrapper d-flex justify-content-start">
+                <a href=""><div class="button bg-primary text-black font-weight-500 fs-5 rounded py-2 px-5 border-0 py-xl-3 mx-md-2 mx-lg-4 mx-xxl-5">BESTIL</div></a>
+                </div>
             </form>
         </section>
     </div>

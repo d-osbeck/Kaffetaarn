@@ -92,7 +92,7 @@
         <section class="content d-lg-flex flex-lg-row mt-3 mb-lg-5">
 
             <div class="col-lg-6">
-                <img class="image" src="img/Dea.png" alt="">
+                <img class="image" src="img/Dea.png" alt="Dea-foto">
             </div>
 
             <div class="time d-flex flex-column col-lg-6 align-self-lg-center ps-lg-3 ps-lg-5">
@@ -132,7 +132,7 @@
                     </p>
                 </div>
 
-                <div class="omkaffetaarn__social__wrapper social__icons text-center">
+                <div class="omkaffetaarn__social__wrapper social__icons text-center pb-5 pb-md-0">
                     <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-facebook-f fa-stack-1x text-white"></i></a>
                     <a href="https://www.instagram.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-instagram fa-stack-1x text-white"></i></a>
                 </div>
@@ -141,8 +141,8 @@
         </section>
 
         <div class="text-center mb-2">
-            <a href="index.php#menu"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
-            <a href="findvej.php"><button class="bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">FIND VEJ</button></a>
+            <a href="index.php#menu"><button class="button bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
+            <a href="findvej.php"><button class="button bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">FIND VEJ</button></a>
         </div>
 
         <div class="arrow bounce ps-lg-3">
@@ -156,14 +156,9 @@
 <section class="history container py-5" id="history">
 
 
-    <div class="history__img__first bg-dark mb-4 mb-lg-0 align-self-center">
-        <img src="" alt="">
-    </div>
+    <div class="history__img__first bg-dark mb-4 mb-lg-0 align-self-center"></div>
 
-    <div class="history__img__second bg-danger mb-4 mb-lg-0 align-self-center">
-        <img src="" alt="">
-    </div>
-
+    <div class="history__img__second bg-danger mb-4 mb-lg-0 align-self-center"></div>
 
     <div class="history__box__wrapper container-lg bg-white p-5">
         <header class="d-flex justify-content-center mb-4">
@@ -171,17 +166,13 @@
             <h1 class="headline px-2 my-2 text-center">FRA VANDTÅRN TIL CAFÉ</h1>
             <img class="kaffe-icon align-self-center" src="img/kaffekop-ikon-right.svg" alt="kaffekop ikon" style="width:40px;">
         </header>
-        <p class="">”Vandtårn og kirketårn stod som søjler i ildhavet, og alle indre gader var truet...”
+        <p>”Vandtårn og kirketårn stod som søjler i ildhavet, og alle indre gader var truet...”
             Sådan skriver Folketidende om “Pinsebranden” i Nykøbing i 1930
-
             <br><br>
             Heldigvis overlevede det 43 meter høje, ikoniske vandtårn i centrum af Nykøbing og i dag ligger den hyggelige café, KAFFETÅR’N i bunden.
-
             <br><br>
             Det er tegnet af Einar Ambt og Alf Jørgensen og blev opført i 1908 som Danmarks første armerede betonbyggeri og fungerede som byens vandforsyning indtil 1976.
-
             <br><br>
-
             KAFFETÅR’N har nu mulighed for at lukke op for besøgende, der ønsker at komme op og nyde udsigten for 20,- pr. person. <br>
             Når vejret tillader det, kan man se hele vejen til Danmarks sydligste punkt - Gedser
     </div>

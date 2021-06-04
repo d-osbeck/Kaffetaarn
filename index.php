@@ -86,9 +86,9 @@
 <section class="top">
     <header>
         <img class="top__logo__tagline align-self-center mb-4" src="img/logo-tagline.svg" alt="logo-tagline">
-        <div class="top__btn__wrapper text-center">
-            <a href="#menu"><button class="bg-primary text-black fs-4 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
-            <a href="bestilling.php"><button class="bg-primary text-black fs-4 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">BESTIL BORD</button></a>
+        <div class="top__btn__wrapper d-flex justify-content-center">
+            <a href="#menu" class="mx-1 mx-md-2 mx-xl-3"><div class="button bg-primary text-black fs-4 font-weight-500 rounded py-2 px-4 border-0 py-xl-3 px-xl-5">MENU</div></a>
+            <a href="bestilling.php" class="mx-1 mx-md-2 mx-xl-3"><div class="button bg-primary text-black fs-4 font-weight-500 rounded py-2 px-4 border-0 py-xl-3 px-xl-5">BESTIL BORD</div></a>
         </div>
         <div class="arrow bounce">
             <a class="fa fa-arrow-down fa-2x text-white my-5" href="#velkommen"></a>

@@ -11,11 +11,6 @@
         {
             "@context": "https://schema.org",
             "@type": "Restaurant",
-            "image": [
-                "https://example.com/photos/1x1/photo.jpg",
-                "https://example.com/photos/4x3/photo.jpg",
-                "https://example.com/photos/16x9/photo.jpg"
-            ],
             "@id": "http://www.farligzebra.dk/kaffetaarn",
             "name": "KAFFETÅR'N",
             "address": {
@@ -24,7 +19,7 @@
                 "addressLocality": "Nykøbing Falster",
                 "postalCode": "4800"
             },
-            "url": "http://www.example.com/findvej",
+            "url": "http://farligzebra.dk/kaffetaarn/omkaffetaarn.php",
             "telephone": "+4593946454",
             "openingHoursSpecification": [
                 {

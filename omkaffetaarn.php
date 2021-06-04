@@ -92,7 +92,7 @@
         <section class="content d-lg-flex flex-lg-row mt-3 mb-lg-5">
 
             <div class="col-lg-6">
-                <img class="image" src="img/Dea.png" alt="Dea-foto">
+                <img class="image" src="img/Dea.jpg" alt="Dea-foto">
             </div>
 
             <div class="time d-flex flex-column col-lg-6 align-self-lg-center ps-lg-3 ps-lg-5">
@@ -156,9 +156,9 @@
 <section class="history container py-5" id="history">
 
 
-    <div class="history__img__first bg-dark mb-4 mb-lg-0 align-self-center"></div>
+    <div class="history__img__first mb-4 mb-lg-0 align-self-center"></div>
 
-    <div class="history__img__second bg-danger mb-4 mb-lg-0 align-self-center"></div>
+    <div class="history__img__second mb-4 mb-lg-0 align-self-center"></div>
 
     <div class="history__box__wrapper container-lg bg-white p-5">
         <header class="d-flex justify-content-center mb-4">

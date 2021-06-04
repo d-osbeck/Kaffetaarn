@@ -140,7 +140,7 @@
         <section class="d-md-flex flex-md-row my-3 mt-lg-3 mb-lg-0">
 
         <div class="col-md-7">
-            <img class="image" src="img/indgang-illustration.png" alt="kaffetaarn-indgang">
+            <img class="image" src="img/indgang-illustration.jpg" alt="kaffetaarn-indgang">
         </div>
 
         <div class="time d-flex flex-column col-md-5 align-self-md-center ps-md-3 ps-lg-5">

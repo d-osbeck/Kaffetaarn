@@ -115,9 +115,9 @@
             hvor end du kigger hen.</p>
     </div>
 
-    <div class="velkommen__img__first bg-dark mb-2 mb-md-0"></div>
+    <div class="velkommen__img__first mb-2 mb-md-0"></div>
 
-    <div class="velkommen__img__second bg-danger mb-5 mb-md-0"></div>
+    <div class="velkommen__img__second mb-5 mb-md-0"></div>
 </section>
 
 <section class="menu container-fluid py-5" id="menu">

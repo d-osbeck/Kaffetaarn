@@ -26,12 +26,12 @@
 
 <?php include 'includes/nav.php';?>
 
-<main class="bestilling container-fluid bg-danger py-5">
+<main class="bestilling container-fluid py-5">
     <div class="bestilling__card bg-dark-gray opacity-90 py-5 px-3 container rounded-2 text-white p-lg-5 h-100">
         <section class="bestilling__content">
 
             <div class="bestilling__img">
-                <img src="img/kager.png" alt="kager">
+                <img src="img/kager.jpg" alt="kager">
             </div>
 
             <div class="bestilling__header__wrapper d-md-flex justify-content-center flex-column p-md-3 mx-lg-3 mx-xxl-0 p-xxl-5">

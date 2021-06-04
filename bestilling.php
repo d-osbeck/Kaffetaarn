@@ -12,6 +12,65 @@
     <meta name="copyright" content="© Copyright 2021. All Rights Reserved">
     <meta name="description" content="Bestil bord til Afternoon Tea på cafe og spisested, Kaffetårn, i Nykøbing F. Så du sikret en hyggelig Afternoon.">
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Restaurant",
+            "image": [
+                "https://example.com/photos/1x1/photo.jpg",
+                "https://example.com/photos/4x3/photo.jpg",
+                "https://example.com/photos/16x9/photo.jpg"
+            ],
+            "@id": "http://www.farligzebra.dk/kaffetaarn",
+            "name": "KAFFETÅR'N",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hollands Gaard 30",
+                "addressLocality": "Nykøbing Falster",
+                "postalCode": "4800"
+            },
+            "url": "http://www.example.com/findvej",
+            "telephone": "+4593946454",
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Mandag",
+                        "Tirsdag",
+                        "Onsdag",
+                        "Torsdag"
+                    ],
+                    "opens": "11:00",
+                    "closes": "14:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Fredag"
+                    ],
+                    "opens": "11:00",
+                    "closes": "15:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Lørdag"
+                    ],
+                    "opens": "10:00",
+                    "closes": "15:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Søndag"
+                    ],
+                    "opens": "16:00",
+                    "closes": "22:00"
+                }
+            ]
+        }
+    </script>
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/bestilling.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">

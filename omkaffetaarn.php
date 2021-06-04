@@ -16,7 +16,7 @@
                 "https://example.com/photos/4x3/photo.jpg",
                 "https://example.com/photos/16x9/photo.jpg"
             ],
-            "@id": "http://www.example.com/forside",
+            "@id": "http://www.farligzebra.dk/kaffetaarn",
             "name": "KAFFETÅR'N",
             "address": {
                 "@type": "PostalAddress",

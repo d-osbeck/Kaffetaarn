@@ -132,7 +132,7 @@
                     </p>
                 </div>
 
-                <div class="omkaffetaarn__social__wrapper social__icons text-center pb-5 pb-md-0">
+                <div class="omkaffetaarn__social__wrapper social__icons text-center pb-5 pb-lg-0">
                     <a href="https://www.facebook.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-facebook-f fa-stack-1x text-white"></i></a>
                     <a href="https://www.instagram.com/kaffetaarn" target="_blank" class="fa-stack fa-2x mx-2"><i class="fas fa-circle fa-stack-2x text-black-50"></i><i class="fab fa-instagram fa-stack-1x text-white"></i></a>
                 </div>
@@ -140,9 +140,9 @@
 
         </section>
 
-        <div class="text-center mb-2">
-            <a href="index.php#menu"><button class="button bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">MENU</button></a>
-            <a href="findvej.php"><button class="button bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 mx-1 border-0 py-xl-3 px-xl-5 mx-xl-3">FIND VEJ</button></a>
+        <div class="omkaffetaarn__btn__wrapper d-flex justify-content-center mb-2">
+            <a href="index.php#menu"><div class="button bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 border-0 py-xl-3 px-xl-5">MENU</div></a>
+            <a href="findvej.php" class="mx-1 mx-md-2 mx-xl-3"><div class="button bg-primary text-black fs-5 font-weight-500 rounded py-2 px-4 border-0 py-xl-3 px-xl-5">FIND VEJ</div></a>
         </div>
 
         <div class="arrow bounce ps-lg-3">

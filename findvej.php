@@ -124,7 +124,7 @@
             <p class="contact__links text-center mb-4">
                 Email:
                 <br>
-                <a href="mailto: kaffetaarn@gmail.com" class="link__text">kaffetaarn@gmail.com</a>
+                <a href="mailto:kaffetaarn@gmail.com" class="link__text">kaffetaarn@gmail.com</a>
                 <br>
                 Telefon:
                 <a class="link__text" href="tel:+4593946465">+45 93 94 64 65</a>
